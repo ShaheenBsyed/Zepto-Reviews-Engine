@@ -1,0 +1,131 @@
+{
+  "phase": "Phase 0: Foundation & Scoping",
+  "generated_at": "2026-07-30T15:37:00.191746",
+  "validation_script": "scripts/validate_phase0.py",
+  "checks": {
+    "total_passed": 110,
+    "total_failed": 0,
+    "total_warns": 21,
+    "all_passed": true
+  },
+  "deliverables": {
+    "finalized_research_questions": true,
+    "project_directory_structure": true,
+    "configured_development_environment": true,
+    "data_source_configuration": true,
+    "canonical_review_schema": true,
+    "initial_dataset_validation_report": true
+  },
+  "research_questions": [
+    {
+      "id": "RQ1",
+      "label": "Habit & Repetition",
+      "question": "Why do users repeatedly buy from the same categories? Is it convenience, trust, or lack of awareness?",
+      "semantic_query": "I always buy the same things every week and never try anything new from this app. I just stick to what I know."
+    },
+    {
+      "id": "RQ2",
+      "label": "Exploration Barriers",
+      "question": "What prevents users from trying new categories? (e.g., price anxiety, unfamiliarity, no trigger)",
+      "semantic_query": "I wanted to try the pet food or beauty section but I was not sure about the quality or price. Ended up not buying."
+    },
+    {
+      "id": "RQ3",
+      "label": "Discovery Pathways",
+      "question": "How do users currently discover products or categories they were not already buying?",
+      "semantic_query": "I discovered a new product because of a recommendation or offer and it became something I buy regularly now."
+    },
+    {
+      "id": "RQ4",
+      "label": "Role of Habit",
+      "question": "How strongly do established routines suppress willingness to experiment with new categories?",
+      "semantic_query": "I have a fixed list I order every time. I don't really look at other sections because my list is already set."
+    },
+    {
+      "id": "RQ5",
+      "label": "Information Needs",
+      "question": "What information do users need before they feel confident trying a new category for the first time?",
+      "semantic_query": "I would try the medicine or baby products section if I knew more about the brands or if there were reviews I could trust"
+    },
+    {
+      "id": "RQ6",
+      "label": "Recurring Frustrations",
+      "question": "What pain points surface consistently across reviews and discussions? How do these suppress exploration?",
+      "semantic_query": "The app is frustrating because I can never find what I am looking for. The search is bad and categories are confusing."
+    },
+    {
+      "id": "RQ7",
+      "label": "Experimental Segments",
+      "question": "Which user personas or life-stage segments are more likely to try new categories?",
+      "semantic_query": "Since we had a baby I started buying so many new things from the app. Or since I got a dog I started exploring the pet s"
+    },
+    {
+      "id": "RQ8",
+      "label": "Unmet Needs",
+      "question": "What needs do users consistently express that the platform is not currently addressing?",
+      "semantic_query": "I wish Zepto had better options for organic food or more variety in the premium section. There are things I would buy if"
+    }
+  ],
+  "data_sources": [
+    {
+      "id": "play_store",
+      "name": "Google Play Store",
+      "tier": 1,
+      "enabled": true
+    },
+    {
+      "id": "app_store",
+      "name": "Apple App Store",
+      "tier": 2,
+      "enabled": true
+    },
+    {
+      "id": "forum",
+      "name": "Community Forums",
+      "tier": 2,
+      "enabled": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter / X",
+      "tier": 3,
+      "enabled": false
+    }
+  ],
+  "database_summary": {
+    "total_records": 1500,
+    "source_distribution": {
+      "play_store": 1500
+    },
+    "app_distribution": {
+      "blinkit": 500,
+      "swiggy_instamart": 500,
+      "zepto": 500
+    },
+    "rating_distribution": {
+      "1": 1225,
+      "2": 72,
+      "3": 44,
+      "4": 45,
+      "5": 114
+    },
+    "language_distribution": {
+      "en": 1500
+    },
+    "date_range": {
+      "earliest": "2025-04-28",
+      "latest": "2026-07-25"
+    },
+    "schema_columns": [
+      "id",
+      "source",
+      "app",
+      "text",
+      "rating",
+      "date",
+      "language",
+      "metadata",
+      "inserted_at"
+    ]
+  }
+}

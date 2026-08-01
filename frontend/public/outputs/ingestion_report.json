@@ -1,0 +1,67 @@
+{
+  "pipeline_run_timestamp": "2026-07-30T18:38:01.830429",
+  "total_records_in_store": 10024,
+  "total_inserted_this_run": 10000,
+  "total_skipped_this_run": 0,
+  "total_duplicate_this_run": 0,
+  "date_range": {
+    "earliest": "2024-01-04",
+    "latest": "2026-07-28"
+  },
+  "records_by_source": {
+    "play_store": 10000,
+    "app_store": 12,
+    "quora": 12
+  },
+  "records_by_app": {
+    "zepto": 9534,
+    "blinkit": 484,
+    "swiggy_instamart": 3,
+    "bigbasket": 3
+  },
+  "source_stats": {
+    "play_store": {
+      "status": "success",
+      "records_collected": 10000,
+      "records_inserted": 10000,
+      "records_skipped": 0,
+      "records_duplicate": 0
+    },
+    "app_store": {
+      "status": "seed_fallback",
+      "records_collected": 0,
+      "records_inserted": 0,
+      "records_skipped": 0,
+      "records_duplicate": 0,
+      "seed_records_inserted": 12
+    },
+    "quora": {
+      "status": "seed_fallback",
+      "records_collected": 0,
+      "records_inserted": 0,
+      "records_skipped": 0,
+      "records_duplicate": 0,
+      "seed_records_inserted": 12
+    },
+    "forum": {
+      "status": "no_data",
+      "records_collected": 0,
+      "records_inserted": 0,
+      "records_skipped": 0,
+      "records_duplicate": 0
+    },
+    "csv": {
+      "status": "no_data",
+      "records_collected": 0,
+      "records_inserted": 0,
+      "records_skipped": 0,
+      "records_duplicate": 0
+    }
+  },
+  "exit_criteria": {
+    "min_1000_records": true,
+    "min_3_sources": true,
+    "zepto_present": true,
+    "min_2_competitors": true
+  }
+}

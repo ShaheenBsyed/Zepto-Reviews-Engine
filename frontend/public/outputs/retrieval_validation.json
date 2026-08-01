@@ -1,0 +1,311 @@
+{
+  "validation_timestamp": "2026-07-30T19:05:37.927543",
+  "total_queries": 5,
+  "queries_passed": 5,
+  "queries_failed": 0,
+  "all_passed": true,
+  "top_k": 10,
+  "results": [
+    {
+      "query_id": "RQ1",
+      "query_label": "Habit & Repetition",
+      "query_text": "I always buy the same things every week and never try anything new from this app. I just stick to what I know.",
+      "results_count": 10,
+      "passed": true,
+      "sources": [
+        "forum",
+        "quora",
+        "play_store"
+      ],
+      "top_results": [
+        {
+          "id": "chunk-003",
+          "document_preview": "I only buy from the same categories every week. I never explore new sections of the app.",
+          "metadata": {
+            "chunk_index": 0,
+            "rating": 4,
+            "chunk_id": "chunk-003",
+            "source": "play_store",
+            "total_chunks": 1,
+            "date": "2025-08-01",
+            "created_at": "2025-08-01",
+            "language": "en",
+            "app": "blinkit",
+            "parent_record_id": "record-003"
+          },
+          "distance": 0.1954306960105896
+        },
+        {
+          "id": "9e9e6408-45e7-4d6a-9d0e-c83ab7bb33e1",
+          "document_preview": "I only buy the same items from Zepto every week. I wish the app made it easier to try new categories",
+          "metadata": {
+            "chunk_id": "9e9e6408-45e7-4d6a-9d0e-c83ab7bb33e1",
+            "date": "2025-08-22",
+            "language": "en",
+            "chunk_index": 0,
+            "app": "zepto",
+            "parent_record_id": "87860017-ff01-42cd-901a-78e363ff161d",
+            "source": "forum",
+            "total_chunks": 1
+          },
+          "distance": 0.27270281314849854
+        },
+        {
+          "id": "88bcaf7b-4c49-4559-87c2-bfc0b6589efa",
+          "document_preview": "I only buy the same items from Zepto every week. I wish the app made it easier to try new categories",
+          "metadata": {
+            "chunk_id": "88bcaf7b-4c49-4559-87c2-bfc0b6589efa",
+            "total_chunks": 1,
+            "created_at": "2025-08-22",
+            "app": "zepto",
+            "language": "en",
+            "chunk_index": 0,
+            "parent_record_id": "6d4f59c7-fa38-4b43-b4af-910c610ef7a7",
+            "source": "quora"
+          },
+          "distance": 0.27270281314849854
+        }
+      ]
+    },
+    {
+      "query_id": "RQ2",
+      "query_label": "Exploration Barriers",
+      "query_text": "I wanted to try the pet food or beauty section but I was not sure about the quality or price. Ended up not buying.",
+      "results_count": 10,
+      "passed": true,
+      "sources": [
+        "play_store"
+      ],
+      "top_results": [
+        {
+          "id": "3d10d8ee-2fc3-4ddb-8d79-93ea1ba745ad",
+          "document_preview": "Good Quality vegetables all grocery item and best price",
+          "metadata": {
+            "chunk_index": 0,
+            "rating": 4,
+            "language": "en",
+            "app": "zepto",
+            "parent_record_id": "97edd257-1174-440c-a841-3de05b025122",
+            "chunk_id": "3d10d8ee-2fc3-4ddb-8d79-93ea1ba745ad",
+            "source": "play_store",
+            "created_at": "2026-07-08",
+            "total_chunks": 1
+          },
+          "distance": 0.4393514394760132
+        },
+        {
+          "id": "93a86caa-0462-4ef2-95cd-a69b84cf83fc",
+          "document_preview": "Best price, Good Packing, Delivered ontime.ParticularlyVegetables, Eggs &Fruits quality/Freshness to",
+          "metadata": {
+            "total_chunks": 1,
+            "chunk_index": 0,
+            "chunk_id": "93a86caa-0462-4ef2-95cd-a69b84cf83fc",
+            "rating": 4,
+            "created_at": "2026-05-24",
+            "app": "zepto",
+            "parent_record_id": "3b1ede58-8299-4f88-9502-f649a2b52f90",
+            "language": "en",
+            "source": "play_store"
+          },
+          "distance": 0.4837248921394348
+        },
+        {
+          "id": "192bfbb6-4e67-4280-b6d5-3a6822be2787",
+          "document_preview": "good food and food is cheap and only the reason I review 4 star is dilvery charge is too much",
+          "metadata": {
+            "chunk_index": 0,
+            "rating": 4,
+            "parent_record_id": "ae95d673-d078-44f3-9ced-d531c470e6d2",
+            "created_at": "2026-06-13",
+            "source": "play_store",
+            "chunk_id": "192bfbb6-4e67-4280-b6d5-3a6822be2787",
+            "total_chunks": 1,
+            "app": "zepto",
+            "language": "en"
+          },
+          "distance": 0.4893151521682739
+        }
+      ]
+    },
+    {
+      "query_id": "RQ3",
+      "query_label": "Discovery Pathways",
+      "query_text": "I discovered a new product because of a recommendation or offer and it became something I buy regularly now.",
+      "results_count": 10,
+      "passed": true,
+      "sources": [
+        "play_store"
+      ],
+      "top_results": [
+        {
+          "id": "6366b1de-8c0a-4979-ae80-c66762791675",
+          "document_preview": "Genuine fresh products, fast delivery, quick resolution to disputes, vast range of products to choos",
+          "metadata": {
+            "total_chunks": 1,
+            "chunk_id": "6366b1de-8c0a-4979-ae80-c66762791675",
+            "language": "en",
+            "source": "play_store",
+            "rating": 5,
+            "chunk_index": 0,
+            "parent_record_id": "fc53ff2d-d6dc-47c5-805f-439d883b9bd1",
+            "app": "zepto",
+            "created_at": "2026-04-08"
+          },
+          "distance": 0.44380801916122437
+        },
+        {
+          "id": "d7fb7eb4-0b27-43fd-8bc6-8e60acc7f4b4",
+          "document_preview": "so many times I got expired products although they gave me a refund but it was a waste of time .",
+          "metadata": {
+            "total_chunks": 1,
+            "rating": 3,
+            "parent_record_id": "b9982b03-94d3-457f-b49b-edcac9633323",
+            "chunk_index": 0,
+            "chunk_id": "d7fb7eb4-0b27-43fd-8bc6-8e60acc7f4b4",
+            "created_at": "2026-04-03",
+            "app": "zepto",
+            "language": "en",
+            "source": "play_store"
+          },
+          "distance": 0.4639087915420532
+        },
+        {
+          "id": "3a414653-0df6-4fd3-bc81-a701b95f970c",
+          "document_preview": "Poor experience and behavior. If you buy any product from here, they will call you and pretend to of",
+          "metadata": {
+            "total_chunks": 1,
+            "chunk_id": "3a414653-0df6-4fd3-bc81-a701b95f970c",
+            "chunk_index": 0,
+            "parent_record_id": "8eecbb57-995f-465f-8781-c57717ec498c",
+            "source": "play_store",
+            "rating": 1,
+            "language": "en",
+            "app": "zepto",
+            "created_at": "2026-07-12"
+          },
+          "distance": 0.47507959604263306
+        }
+      ]
+    },
+    {
+      "query_id": "RQ4",
+      "query_label": "Role of Habit",
+      "query_text": "I have a fixed list I order every time. I don't really look at other sections because my list is already set.",
+      "results_count": 10,
+      "passed": true,
+      "sources": [
+        "play_store"
+      ],
+      "top_results": [
+        {
+          "id": "fce8e275-a595-41e7-920d-2bd9b71ffbf9",
+          "document_preview": "#1.Under \"Order history\" section, could you please add a TAB for PENDING RATING orders, upon clickin",
+          "metadata": {
+            "date": "2026-07-15",
+            "app": "blinkit",
+            "rating": 4,
+            "total_chunks": 1,
+            "chunk_index": 0,
+            "chunk_id": "fce8e275-a595-41e7-920d-2bd9b71ffbf9",
+            "parent_record_id": "c0185709-47a7-4d7d-a156-2796fa65c2bb",
+            "language": "en",
+            "source": "play_store"
+          },
+          "distance": 0.5074273347854614
+        },
+        {
+          "id": "e182be94-c68f-4d00-aa0e-d025bfbcac4f",
+          "document_preview": "#1.Under \"Order history\" section, could you please add a TAB for PENDING RATING orders, upon clickin",
+          "metadata": {
+            "created_at": "2026-07-15",
+            "app": "blinkit",
+            "parent_record_id": "b1b81b34-a762-440d-a303-acb23060ccdc",
+            "source": "play_store",
+            "rating": 4,
+            "language": "en",
+            "chunk_id": "e182be94-c68f-4d00-aa0e-d025bfbcac4f",
+            "total_chunks": 1,
+            "chunk_index": 0
+          },
+          "distance": 0.5074273347854614
+        },
+        {
+          "id": "6f1e1f98-f2c5-4d2b-be3f-97b12eee8fe5",
+          "document_preview": "many items are missing. if the item is not in ur list why did u display it. plz value others time. n",
+          "metadata": {
+            "chunk_id": "6f1e1f98-f2c5-4d2b-be3f-97b12eee8fe5",
+            "total_chunks": 1,
+            "chunk_index": 0,
+            "created_at": "2026-07-17",
+            "source": "play_store",
+            "rating": 1,
+            "app": "zepto",
+            "language": "en",
+            "parent_record_id": "eb6c97d6-d7a0-4239-8fd5-d38798546cde"
+          },
+          "distance": 0.5082708597183228
+        }
+      ]
+    },
+    {
+      "query_id": "RQ5",
+      "query_label": "Information Needs",
+      "query_text": "I would try the medicine or baby products section if I knew more about the brands or if there were reviews I could trust.",
+      "results_count": 10,
+      "passed": true,
+      "sources": [
+        "play_store"
+      ],
+      "top_results": [
+        {
+          "id": "757457da-5606-43c6-8ad6-9d8ad783690b",
+          "document_preview": "all products are best and delivery boy behaviour is good 😊",
+          "metadata": {
+            "created_at": "2026-07-16",
+            "parent_record_id": "be015474-287a-48fb-b07a-c9945abc3333",
+            "rating": 5,
+            "language": "en",
+            "total_chunks": 1,
+            "source": "play_store",
+            "app": "zepto",
+            "chunk_id": "757457da-5606-43c6-8ad6-9d8ad783690b",
+            "chunk_index": 0
+          },
+          "distance": 0.46883976459503174
+        },
+        {
+          "id": "024202a6-96f5-4e99-a05e-6d7fa1973183",
+          "document_preview": "I like the service and range of the items available. I recently ordered from its pharma and the way ",
+          "metadata": {
+            "chunk_id": "024202a6-96f5-4e99-a05e-6d7fa1973183",
+            "chunk_index": 0,
+            "rating": 5,
+            "app": "blinkit",
+            "source": "play_store",
+            "language": "en",
+            "parent_record_id": "8f44bf06-037e-4a80-a5ed-5ae449f60513",
+            "date": "2026-07-19",
+            "total_chunks": 1
+          },
+          "distance": 0.5121022462844849
+        },
+        {
+          "id": "39e8805d-8d25-4e04-805b-a11cb0550ddb",
+          "document_preview": "I ordered baby diapers in Instamart.. They missed the product, they closed the direct conversation w",
+          "metadata": {
+            "parent_record_id": "2998edc1-0c5a-4a99-a7bd-24191c72a18e",
+            "date": "2026-05-18",
+            "chunk_index": 0,
+            "source": "play_store",
+            "chunk_id": "39e8805d-8d25-4e04-805b-a11cb0550ddb",
+            "language": "en",
+            "app": "swiggy_instamart",
+            "total_chunks": 1,
+            "rating": 1
+          },
+          "distance": 0.5584388971328735
+        }
+      ]
+    }
+  ]
+}

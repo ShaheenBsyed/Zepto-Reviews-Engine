@@ -1,0 +1,248 @@
+/* src/output/static/css/dashboard.css */
+
+:root {
+    --primary-color: #0d6efd;
+    --secondary-color: #6c757d;
+    --success-color: #198754;
+    --info-color: #0dcaf0;
+    --warning-color: #ffc107;
+    --danger-color: #dc3545;
+    --light-bg: #f8f9fa;
+    --card-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    --border-radius: 0.5rem;
+}
+
+body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background-color: #f0f2f5;
+    min-height: 100vh;
+}
+
+.navbar-brand {
+    font-size: 1.25rem;
+    letter-spacing: -0.02em;
+}
+
+.stat-card {
+    border: none;
+    border-radius: var(--border-radius);
+    box-shadow: var(--card-shadow);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.stat-number {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    line-height: 1.2;
+}
+
+.stat-label {
+    font-size: 0.85rem;
+    color: var(--secondary-color);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-top: 0.25rem;
+}
+
+.chart-card {
+    border: none;
+    border-radius: var(--border-radius);
+    box-shadow: var(--card-shadow);
+}
+
+.chart-card .card-header {
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    padding: 0.75rem 1.25rem;
+}
+
+.chart-card .card-title {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.insight-card {
+    border: none;
+    border-radius: var(--border-radius);
+    box-shadow: var(--card-shadow);
+    transition: transform 0.2s ease;
+}
+
+.insight-card:hover {
+    transform: translateY(-1px);
+}
+
+.insight-card .card-header {
+    border-radius: var(--border-radius) var(--border-radius) 0 0 !important;
+}
+
+.badge-confidence {
+    font-size: 0.7rem;
+    padding: 0.25em 0.5em;
+}
+
+.theme-card {
+    border: none;
+    border-radius: var(--border-radius);
+    box-shadow: var(--card-shadow);
+    transition: transform 0.2s ease;
+}
+
+.theme-card:hover {
+    transform: translateY(-1px);
+}
+
+.theme-card .card-body {
+    padding: 1rem 1.25rem;
+}
+
+.theme-name {
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--primary-color);
+}
+
+.theme-description {
+    font-size: 0.85rem;
+    color: #666;
+    margin: 0.5rem 0;
+}
+
+.theme-quote {
+    font-style: italic;
+    font-size: 0.8rem;
+    color: #888;
+    border-left: 3px solid var(--primary-color);
+    padding-left: 0.75rem;
+    margin-top: 0.5rem;
+}
+
+.segment-card {
+    border: none;
+    border-radius: var(--border-radius);
+    box-shadow: var(--card-shadow);
+    transition: transform 0.2s ease;
+}
+
+.segment-card:hover {
+    transform: translateY(-1px);
+}
+
+.segment-card .card-header {
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+#reviews-table td {
+    vertical-align: middle;
+    font-size: 0.85rem;
+}
+
+#reviews-table .text-truncate {
+    max-width: 400px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+footer {
+    border-top: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+@media (max-width: 768px) {
+    .stat-number {
+        font-size: 1.75rem;
+    }
+
+    .stat-label {
+        font-size: 0.7rem;
+    }
+
+    #reviews-table .text-truncate {
+        max-width: 150px;
+    }
+
+    #global-search-form {
+        margin-top: 0.5rem;
+        width: 100%;
+    }
+}
+
+.section-title {
+    font-weight: 700;
+    color: #333;
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.loading-spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+}
+
+.card {
+    border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.card-header {
+    background-color: #fff;
+}
+
+.btn-outline-primary {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.nav-link.active {
+    color: #fff !important;
+    font-weight: 600;
+}
+
+.evidence-quote {
+    font-size: 0.8rem;
+    color: #555;
+    background-color: #f8f9fa;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    border-left: 2px solid var(--info-color);
+}
+
+.implication-text {
+    font-size: 0.85rem;
+    color: #666;
+}
+
+.segment-badge {
+    font-size: 0.7rem;
+    padding: 0.2em 0.6em;
+}
+
+.pagination {
+    margin-top: 1rem;
+}
+
+#faithfulness-table th {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+#faithfulness-table td {
+    font-size: 0.85rem;
+    vertical-align: middle;
+}

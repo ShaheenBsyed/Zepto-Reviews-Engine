@@ -1,0 +1,41 @@
+{
+  "pipeline_run_timestamp": "2026-07-30T19:05:37.945093",
+  "phase": "Phase 3: Embedding & Vector Indexing",
+  "model": "all-MiniLM-L6-v2",
+  "embedding_dimension": 384,
+  "total_chunks_loaded": 9963,
+  "already_indexed": 0,
+  "newly_indexed": 9963,
+  "skipped_empty": 0,
+  "total_in_collection": 11560,
+  "collection_name": "zepto_reviews",
+  "persist_directory": "C:\\Zepto AI Review Engine\\data\\embeddings\\chroma",
+  "index_stats": {
+    "collection_name": "zepto_reviews",
+    "total_vectors": 11560,
+    "embedding_dimension": 384,
+    "metadata_schema": {
+      "chunk_index": "int",
+      "parent_record_id": "str",
+      "app": "str",
+      "date": "str",
+      "language": "str",
+      "chunk_id": "str",
+      "rating": "int",
+      "source": "str",
+      "total_chunks": "int"
+    },
+    "persist_directory": "C:\\Zepto AI Review Engine\\data\\embeddings\\chroma"
+  },
+  "retrieval_validation": {
+    "total_queries": 5,
+    "queries_passed": 5,
+    "queries_failed": 0,
+    "all_passed": true
+  },
+  "exit_criteria": {
+    "all_chunks_indexed": true,
+    "retrieval_validation_passed": true,
+    "index_stats_valid": true
+  }
+}

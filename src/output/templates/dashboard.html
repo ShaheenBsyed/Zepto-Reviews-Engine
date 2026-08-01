@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zepto AI Review Engine — Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="/static/css/dashboard.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="/"><i class="bi bi-graph-up-arrow me-2"></i>Zepto AI Review Engine</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#overview">Overview</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#insights">Insights</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#themes">Themes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#segments">Segments</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#reviews">Reviews</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#evaluation">Evaluation</a></li>
+                </ul>
+                <form class="d-flex" id="global-search-form">
+                    <input class="form-control me-2" type="search" id="global-search-input" placeholder="Search reviews..." aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit"><i class="bi bi-search"></i></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid mt-4">
+        <!-- Overview Section -->
+        <section id="overview">
+            <h2 class="mb-4 section-title">Pipeline Overview</h2>
+            <div class="row g-4 mb-4" id="stats-cards">
+                <div class="col-md-3">
+                    <div class="card stat-card h-100">
+                        <div class="card-body text-center">
+                            <div class="stat-number" id="stat-raw-records">—</div>
+                            <div class="stat-label">Raw Records</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card stat-card h-100">
+                        <div class="card-body text-center">
+                            <div class="stat-number" id="stat-clean-chunks">—</div>
+                            <div class="stat-label">Clean Chunks</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card stat-card h-100">
+                        <div class="card-body text-center">
+                            <div class="stat-number" id="stat-sources">—</div>
+                            <div class="stat-label">Data Sources</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card stat-card h-100">
+                        <div class="card-body text-center">
+                            <div class="stat-number" id="stat-apps">—</div>
+                            <div class="stat-label">Apps Analyzed</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-4 mb-4">
+                <div class="col-md-6">
+                    <div class="card chart-card">
+                        <div class="card-header"><h5 class="card-title mb-0">Records by Source</h5></div>
+                        <div class="card-body"><canvas id="sourceChart"></canvas></div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card chart-card">
+                        <div class="card-header"><h5 class="card-title mb-0">Records by App</h5></div>
+                        <div class="card-body"><canvas id="appChart"></canvas></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-4 mb-4">
+                <div class="col-md-6">
+                    <div class="card chart-card">
+                        <div class="card-header"><h5 class="card-title mb-0">Rating Distribution</h5></div>
+                        <div class="card-body"><canvas id="ratingChart"></canvas></div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card chart-card">
+                        <div class="card-header"><h5 class="card-title mb-0">Date Range</h5></div>
+                        <div class="card-body">
+                            <div class="d-flex justify-content-center align-items-center" style="height: 250px;">
+                                <div class="text-center">
+                                    <i class="bi bi-calendar-event display-4 text-primary mb-3"></i>
+                                    <p class="lead" id="date-range-text">Loading...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Insights Section -->
+        <section id="insights" class="mt-5">
+            <h2 class="mb-4 section-title">RAG-Generated Insights</h2>
+            <div class="row g-4" id="insights-container">
+                <div class="col-12 text-center">
+                    <div class="spinner-border text-primary" role="status">
+                        <span class="visually-hidden">Loading insights...</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Themes Section -->
+        <section id="themes" class="mt-5">
+            <h2 class="mb-4 section-title">Theme Taxonomy</h2>
+            <div class="row g-4" id="themes-container">
+                <div class="col-12 text-center">
+                    <div class="spinner-border text-primary" role="status">
+                        <span class="visually-hidden">Loading themes...</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Segments Section -->
+        <section id="segments" class="mt-5">
+            <h2 class="mb-4 section-title">Segment Profiles</h2>
+            <div class="row g-4" id="segments-container">
+                <div class="col-12 text-center">
+                    <div class="spinner-border text-primary" role="status">
+                        <span class="visually-hidden">Loading segments...</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reviews Section -->
+        <section id="reviews" class="mt-5">
+            <h2 class="mb-4 section-title">Review Browser</h2>
+            <div class="card mb-4">
+                <div class="card-body">
+                    <div class="row g-3">
+                        <div class="col-md-3">
+                            <input type="text" class="form-control" id="filter-search" placeholder="Search text...">
+                        </div>
+                        <div class="col-md-2">
+                            <select class="form-select" id="filter-source">
+                                <option value="">All Sources</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <select class="form-select" id="filter-app">
+                                <option value="">All Apps</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <select class="form-select" id="filter-rating">
+                                <option value="">All Ratings</option>
+                                <option value="1">1 Star</option>
+                                <option value="2">2 Stars</option>
+                                <option value="3">3 Stars</option>
+                                <option value="4">4 Stars</option>
+                                <option value="5">5 Stars</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <button class="btn btn-primary w-100" onclick="applyFilters()"><i class="bi bi-funnel me-1"></i>Filter</button>
+                        </div>
+                        <div class="col-md-1">
+                            <button class="btn btn-outline-secondary w-100" onclick="resetFilters()"><i class="bi bi-arrow-counterclockwise"></i></button>
+                        </div>
+                    </div>
+                    <div class="mt-2 text-muted small" id="review-count">Loading...</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table table-striped table-hover" id="reviews-table">
+                            <thead>
+                                <tr>
+                                    <th>Source</th>
+                                    <th>App</th>
+                                    <th>Rating</th>
+                                    <th>Date</th>
+                                    <th>Text</th>
+                                </tr>
+                            </thead>
+                            <tbody id="reviews-tbody">
+                            </tbody>
+                        </table>
+                        <nav aria-label="Review pagination" id="reviews-pagination">
+                            <ul class="pagination justify-content-center" id="pagination-controls">
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Evaluation Section -->
+        <section id="evaluation" class="mt-5">
+            <h2 class="mb-4 section-title">Validation & Quality Assurance</h2>
+            <div class="row g-4 mb-4" id="eval-summary-cards">
+                <div class="col-md-3">
+                    <div class="card stat-card h-100">
+                        <div class="card-body text-center">
+                            <div class="stat-number" id="eval-passed">—</div>
+                            <div class="stat-label">Overall Pass</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card stat-card h-100">
+                        <div class="card-body text-center">
+                            <div class="stat-number" id="eval-faithfulness">—</div>
+                            <div class="stat-label">Avg Faithfulness</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card stat-card h-100">
+                        <div class="card-body text-center">
+                            <div class="stat-number" id="eval-coverage">—</div>
+                            <div class="stat-label">Coverage</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card stat-card h-100">
+                        <div class="card-body text-center">
+                            <div class="stat-number" id="eval-contradictions">—</div>
+                            <div class="stat-label">Contradictions</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-4 mb-4">
+                <div class="col-md-6">
+                    <div class="card chart-card">
+                        <div class="card-header"><h5 class="card-title mb-0">Faithfulness Scores by Question</h5></div>
+                        <div class="card-body"><canvas id="faithfulnessChart"></canvas></div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card chart-card">
+                        <div class="card-header"><h5 class="card-title mb-0">UMAP Cluster Visualization</h5></div>
+                        <div class="card-body text-center">
+                            <img id="umap-image" src="" alt="UMAP clusters" class="img-fluid rounded" style="max-height: 350px; display: none;">
+                            <div id="umap-loading">
+                                <div class="spinner-border text-primary" role="status"></div>
+                                <p class="mt-2 text-muted">Loading visualization...</p>
+                            </div>
+                            <p id="umap-unavailable" class="text-muted mt-3" style="display: none;">UMAP visualization not available. Run Phase 4 to generate it.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header d-flex justify-content-between align-items-center">
+                            <h5 class="card-title mb-0">Per-Insight Faithfulness Details</h5>
+                            <span class="badge bg-secondary" id="faithfulness-count">0 insights</span>
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table class="table table-sm" id="faithfulness-table">
+                                    <thead>
+                                        <tr>
+                                            <th>RQ ID</th>
+                                            <th>Label</th>
+                                            <th>Score</th>
+                                            <th>Passed</th>
+                                            <th>Judge</th>
+                                            <th>Reasoning</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="faithfulness-tbody">
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="bg-light mt-5 py-3">
+        <div class="container text-center">
+            <p class="text-muted mb-0">Zepto AI Review Engine — Web Dashboard | Phase 7</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <script src="/static/js/dashboard.js"></script>
+</body>
+</html>

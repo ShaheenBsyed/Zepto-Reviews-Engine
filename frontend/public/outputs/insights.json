@@ -1,0 +1,274 @@
+{
+  "pipeline_run_timestamp": "2026-07-29T21:00:00.111402",
+  "phase": "Phase 5: RAG Insight Generation (extractive fallback)",
+  "total_questions": 8,
+  "insights": [
+    {
+      "research_question_id": "RQ1",
+      "research_question_label": "Habit & Repetition",
+      "finding": "I only buy from the same categories every week",
+      "evidence": [
+        {
+          "quote": "I only buy from the same categories every week. I never explore new sections of the app.",
+          "source_chunk": "chunk-003"
+        },
+        {
+          "quote": "I used to actually like to use this app since it showed the right prices and all of that but now since the last one hour my order hasn't come , when I checked, they didn't even assign me a delivery...",
+          "source_chunk": "e028ed5f-bdd4-404b-ac81-ed31dc1286d0"
+        },
+        {
+          "quote": "I used to like this app. but it's full of ads nowadays. Too many ads. very annoying. if this continues, I'll uninstall this and buy my groceries offline. the product discounts on all my favourite p...",
+          "source_chunk": "49d4b814-f4bb-4180-b6d1-c55eae084fb9"
+        }
+      ],
+      "implication": "Based on review analysis for habit & repetition, consider addressing the patterns identified in customer feedback.",
+      "segment": "Pet owners",
+      "confidence": 0.6,
+      "chunk_ids": [
+        "chunk-003",
+        "e028ed5f-bdd4-404b-ac81-ed31dc1286d0",
+        "49d4b814-f4bb-4180-b6d1-c55eae084fb9",
+        "cad77cd1-47c1-41e2-b91c-2bde81b5d369",
+        "886892dc-398a-4b13-b519-839319f16ba6"
+      ],
+      "metadata_filter_applied": {
+        "note": "No source or rating filter — applies broadly across all users."
+      },
+      "evidence_linked": []
+    },
+    {
+      "research_question_id": "RQ2",
+      "research_question_label": "Exploration Barriers",
+      "finding": "Prices are competitive too",
+      "evidence": [
+        {
+          "quote": "Easy to use. Prices are competitive too. This is my favorite for food related anytime and anywhere. Nowadays don't trust it's delivery time shown. It will always be showing 2 mins or 3 mins and it ...",
+          "source_chunk": "57097ea8-50dc-434d-aa04-c7204fee4e9a"
+        },
+        {
+          "quote": "Decent platform, however return process has to be smooth if any item is near expiry or you don't like the quality because most of the items are food items. Alternatively you always have a nearby gr...",
+          "source_chunk": "91c1aa0c-d3eb-4a0e-8a92-4f488133f641"
+        },
+        {
+          "quote": "I had a very disappointing experience with the chicken handi I ordered. The taste was completely off — the gravy was too oily and lacked proper flavor, and the chicken pieces were tough. The portio...",
+          "source_chunk": "0fc5a68e-6a9e-4b99-85ce-9d890dc8be47"
+        }
+      ],
+      "implication": "Based on review analysis for exploration barriers, consider addressing the patterns identified in customer feedback.",
+      "segment": "Pet owners",
+      "confidence": 0.6,
+      "chunk_ids": [
+        "57097ea8-50dc-434d-aa04-c7204fee4e9a",
+        "91c1aa0c-d3eb-4a0e-8a92-4f488133f641",
+        "0fc5a68e-6a9e-4b99-85ce-9d890dc8be47",
+        "6e10471f-a849-458c-b7e8-9a97476f15b8",
+        "c48add67-265c-4a17-afaa-a509b9749afd"
+      ],
+      "metadata_filter_applied": {
+        "note": "Prefer 1–3 star reviews for stronger signal on barriers and frustrations."
+      },
+      "evidence_linked": []
+    },
+    {
+      "research_question_id": "RQ3",
+      "research_question_label": "Discovery Pathways",
+      "finding": "I only buy from the same categories every week",
+      "evidence": [
+        {
+          "quote": "I only buy from the same categories every week. I never explore new sections of the app.",
+          "source_chunk": "chunk-003"
+        },
+        {
+          "quote": "I always had great service but once i got a wrong product...return or exchange will never happen, worst experience ...customer care is always off, I switched to instamart...I can see a lot of bad r...",
+          "source_chunk": "0cd290d4-9525-4959-8ddf-83de6d8f3552"
+        },
+        {
+          "quote": "Extremely disappointing service. I received a product that was not in proper condition, but instead of resolving the issue, customer support kept repeating the same responses and dragged the compla...",
+          "source_chunk": "4ff14f88-a5d2-4d72-982e-88ebc2aa111b"
+        }
+      ],
+      "implication": "Based on review analysis for discovery pathways, consider addressing the patterns identified in customer feedback.",
+      "segment": "Pet owners",
+      "confidence": 0.6,
+      "chunk_ids": [
+        "chunk-003",
+        "0cd290d4-9525-4959-8ddf-83de6d8f3552",
+        "4ff14f88-a5d2-4d72-982e-88ebc2aa111b",
+        "66d95ea7-f501-4972-a498-bae4c986807b",
+        "650036c3-291b-412a-b642-d42640a374bf"
+      ],
+      "metadata_filter_applied": {
+        "note": "4–5 star reviews more likely to contain positive discovery moments."
+      },
+      "evidence_linked": []
+    },
+    {
+      "research_question_id": "RQ4",
+      "research_question_label": "Role of Habit",
+      "finding": "I'm leaving this comment out of frustrations and expectations",
+      "evidence": [
+        {
+          "quote": "I'm leaving this comment out of frustrations and expectations. After an hour of talking with the support agent and bots i didn't get any solution. And after all this what I did get is repeated resp...",
+          "source_chunk": "d0d6a8c2-265c-4f4c-8127-813fd09ee42b"
+        },
+        {
+          "quote": "I accidentally added an extra item after placing my order. There was no option to modify or remove the item, even though the order had not yet been packed or dispatched. This was very disappointing...",
+          "source_chunk": "afd52e1f-d11a-4221-a1a9-759dd7bcf062"
+        },
+        {
+          "quote": "This is extremely disappointing. My order arrived with items missing, and this is not the first time I've faced issues. I paid for the complete order and expect to receive everything I was charged ...",
+          "source_chunk": "67b1c22f-01bf-451b-839f-11afea049985"
+        }
+      ],
+      "implication": "Based on review analysis for role of habit, consider addressing the patterns identified in customer feedback.",
+      "segment": "Pet owners",
+      "confidence": 0.6,
+      "chunk_ids": [
+        "d0d6a8c2-265c-4f4c-8127-813fd09ee42b",
+        "afd52e1f-d11a-4221-a1a9-759dd7bcf062",
+        "67b1c22f-01bf-451b-839f-11afea049985",
+        "32836983-3063-42b2-b6a4-44b312811fa4",
+        "6e0807f2-722f-41bd-a51c-b48af487f962"
+      ],
+      "metadata_filter_applied": {
+        "note": "No filter. Look for mentions of fixed shopping lists, schedules, or auto-reorder behavior."
+      },
+      "evidence_linked": []
+    },
+    {
+      "research_question_id": "RQ5",
+      "research_question_label": "Information Needs",
+      "finding": "I like the service and range of the items available",
+      "evidence": [
+        {
+          "quote": "I like the service and range of the items available. I recently ordered from its pharma and the way this system is designed is very trustworthy. They are not delivering medicines without prescripti...",
+          "source_chunk": "65bdd4ad-fd2b-4db0-baf0-f9e451125122"
+        },
+        {
+          "quote": "I ordered baby diapers in Instamart.. They missed the product, they closed the direct conversation when I complained... And my product was not even refunded.... This has happened so many times, no ...",
+          "source_chunk": "4444f040-a64a-4a28-973d-58002d00f33f"
+        },
+        {
+          "quote": "I'm happy with Blinkit overall. The customer care service is very good and helpful. However, I've noticed that some products like milk and almonds don't always have a clearly visible expiry date. A...",
+          "source_chunk": "8b42a160-3272-4a7a-898d-f3bce8db639e"
+        }
+      ],
+      "implication": "Based on review analysis for information needs, consider addressing the patterns identified in customer feedback.",
+      "segment": "New parents",
+      "confidence": 0.6,
+      "chunk_ids": [
+        "65bdd4ad-fd2b-4db0-baf0-f9e451125122",
+        "4444f040-a64a-4a28-973d-58002d00f33f",
+        "8b42a160-3272-4a7a-898d-f3bce8db639e",
+        "e88026e9-18f5-4692-81a0-38358c33eeb2",
+        "21ed62d6-4bb7-41da-9eeb-41256256768d"
+      ],
+      "metadata_filter_applied": {
+        "note": "No source filter. Look for qualifiers, conditions, and 'I wish' statements."
+      },
+      "evidence_linked": []
+    },
+    {
+      "research_question_id": "RQ6",
+      "research_question_label": "Recurring Frustrations",
+      "finding": "The app keeps crashing when I try to browse different categories",
+      "evidence": [
+        {
+          "quote": "The app keeps crashing when I try to browse different categories. Very frustrating experience.",
+          "source_chunk": "chunk-002"
+        },
+        {
+          "quote": "The search and browsing experience needs improvement. It is hard to discover new categories.",
+          "source_chunk": "chunk-005"
+        },
+        {
+          "quote": "I used to like this app. but it's full of ads nowadays. Too many ads. very annoying. if this continues, I'll uninstall this and buy my groceries offline. the product discounts on all my favourite p...",
+          "source_chunk": "49d4b814-f4bb-4180-b6d1-c55eae084fb9"
+        }
+      ],
+      "implication": "Based on review analysis for recurring frustrations, consider addressing the patterns identified in customer feedback.",
+      "segment": "Pet owners",
+      "confidence": 0.6,
+      "chunk_ids": [
+        "chunk-002",
+        "chunk-005",
+        "49d4b814-f4bb-4180-b6d1-c55eae084fb9",
+        "43162e96-0909-4634-bc21-0f300942a72b",
+        "f64430ea-6d6c-4566-abd0-e6b6e9516a03"
+      ],
+      "metadata_filter_applied": {
+        "rating_lte": 3,
+        "note": "Filter to 1–3 star reviews for the strongest frustration signal."
+      },
+      "evidence_linked": []
+    },
+    {
+      "research_question_id": "RQ7",
+      "research_question_label": "Experimental Segments",
+      "finding": "I only buy from the same categories every week",
+      "evidence": [
+        {
+          "quote": "I only buy from the same categories every week. I never explore new sections of the app.",
+          "source_chunk": "chunk-003"
+        },
+        {
+          "quote": "I love shopping for groceries on this app. The delivery is always fast and the items are fresh.",
+          "source_chunk": "chunk-001"
+        },
+        {
+          "quote": "very disappointed with the app. In the beginning app was doing good but nowadays if any of the items are damaged or even expired there is no way we could get a refund.Tried reaching customer suppor...",
+          "source_chunk": "cad77cd1-47c1-41e2-b91c-2bde81b5d369"
+        }
+      ],
+      "implication": "Based on review analysis for experimental segments, consider addressing the patterns identified in customer feedback.",
+      "segment": "Pet owners",
+      "confidence": 0.6,
+      "chunk_ids": [
+        "chunk-003",
+        "chunk-001",
+        "cad77cd1-47c1-41e2-b91c-2bde81b5d369",
+        "087eabc7-8791-47c6-afcf-0cc9c7a22b4e",
+        "49d4b814-f4bb-4180-b6d1-c55eae084fb9"
+      ],
+      "metadata_filter_applied": {
+        "note": "Look for life-event triggers: new baby, new pet, moving house, health goal, new city."
+      },
+      "evidence_linked": []
+    },
+    {
+      "research_question_id": "RQ8",
+      "research_question_label": "Unmet Needs",
+      "finding": "Zepto is not the same anymore",
+      "evidence": [
+        {
+          "quote": "Zepto is not the same anymore. The quality of vegetables has noticeably declined. When I tried contacting customer support through the app, I couldn't get a response and had to send an email instea...",
+          "source_chunk": "ab3a3b27-e3dd-4592-a0d3-e7ce0b093068"
+        },
+        {
+          "quote": "Zepto experience is quite good for me. You get good prices and quality at the same time. I don't have to go out and buy veggies n groceries,they are delivered to me in just 10 mins. I had few issue...",
+          "source_chunk": "b55b8a28-34db-4f95-b408-091259f77baa"
+        },
+        {
+          "quote": "This is one of the worst grocery delivery apps I've used. I ordered milk and other groceries, but the vegetables were not fresh and the milk was spoiled—it curdled as soon as I heated it. I contact...",
+          "source_chunk": "fcef29dd-6242-4d09-a281-3785c9bb623d"
+        }
+      ],
+      "implication": "Based on review analysis for unmet needs, consider addressing the patterns identified in customer feedback.",
+      "segment": "Weekly grocery shoppers",
+      "confidence": 0.6,
+      "chunk_ids": [
+        "ab3a3b27-e3dd-4592-a0d3-e7ce0b093068",
+        "b55b8a28-34db-4f95-b408-091259f77baa",
+        "fcef29dd-6242-4d09-a281-3785c9bb623d",
+        "002f31e9-e6b9-416a-8469-fb4bb0b02336",
+        "86070e3e-e9d3-4a91-a71e-eb409cb4188a"
+      ],
+      "metadata_filter_applied": {
+        "note": "Look for 'I wish', 'why don't they have', 'missing', 'should add', 'no option for'."
+      },
+      "evidence_linked": []
+    }
+  ],
+  "low_confidence_count": 8,
+  "insufficient_evidence_count": 0
+}

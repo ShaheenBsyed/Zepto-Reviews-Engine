@@ -1,0 +1,1377 @@
+{
+  "pipeline_run_timestamp": "2026-07-29T21:00:00.111402",
+  "phase": "Phase 5: Retrieval",
+  "top_k": 10,
+  "max_chunks_per_parent": 2,
+  "queries": [
+    {
+      "question_id": "RQ1",
+      "label": "Habit & Repetition",
+      "semantic_query": "I always buy the same things every week and never try anything new from this app. I just stick to what I know.",
+      "metadata_filters": {
+        "note": "No source or rating filter — applies broadly across all users."
+      },
+      "chunks": [
+        {
+          "id": "chunk-003",
+          "document": "I only buy from the same categories every week. I never explore new sections of the app.",
+          "metadata": {
+            "date": "2025-08-01",
+            "chunk_id": "chunk-003",
+            "rating": 4,
+            "chunk_index": 0,
+            "app": "blinkit",
+            "total_chunks": 1,
+            "language": "en",
+            "source": "play_store",
+            "parent_record_id": "record-003"
+          },
+          "distance": 0.1954306960105896
+        },
+        {
+          "id": "e028ed5f-bdd4-404b-ac81-ed31dc1286d0",
+          "document": "I used to actually like to use this app since it showed the right prices and all of that but now since the last one hour my order hasn't come , when I checked, they didn't even assign me a delivery partner till now, still waiting for my order... blinkit it much better though they prices are higher, you will get your groceries and all quicker atleast unlike this app.. and coupons are so bad to be honest...y'all I am telling you all the reviews are true!",
+          "metadata": {
+            "parent_record_id": "2f450336-163d-461a-9dbf-635f2aabbea1",
+            "rating": 1,
+            "language": "en",
+            "app": "zepto",
+            "chunk_id": "e028ed5f-bdd4-404b-ac81-ed31dc1286d0",
+            "date": "2026-07-02",
+            "source": "play_store",
+            "chunk_index": 0,
+            "total_chunks": 1
+          },
+          "distance": 0.31628429889678955
+        },
+        {
+          "id": "49d4b814-f4bb-4180-b6d1-c55eae084fb9",
+          "document": "I used to like this app. but it's full of ads nowadays. Too many ads. very annoying. if this continues, I'll uninstall this and buy my groceries offline. the product discounts on all my favourite products have reduced a lot. other apps give more discounts. and aggressively promoting their pay later and other new features ... very annoying.",
+          "metadata": {
+            "chunk_id": "49d4b814-f4bb-4180-b6d1-c55eae084fb9",
+            "chunk_index": 0,
+            "source": "play_store",
+            "app": "zepto",
+            "total_chunks": 1,
+            "language": "en",
+            "rating": 2,
+            "parent_record_id": "f922444c-3a89-4339-abac-38875ad9cd9f",
+            "date": "2026-07-17"
+          },
+          "distance": 0.3250081539154053
+        },
+        {
+          "id": "cad77cd1-47c1-41e2-b91c-2bde81b5d369",
+          "document": "very disappointed with the app. In the beginning app was doing good but nowadays if any of the items are damaged or even expired there is no way we could get a refund.Tried reaching customer support,there is no option to complain about the product no matter how expensive it is.",
+          "metadata": {
+            "source": "play_store",
+            "rating": 1,
+            "app": "zepto",
+            "language": "en",
+            "total_chunks": 1,
+            "chunk_id": "cad77cd1-47c1-41e2-b91c-2bde81b5d369",
+            "chunk_index": 0,
+            "date": "2026-05-11",
+            "parent_record_id": "60728672-003f-4900-8edc-d4dd9b435e66"
+          },
+          "distance": 0.33798909187316895
+        },
+        {
+          "id": "886892dc-398a-4b13-b519-839319f16ba6",
+          "document": "Initially, I really liked this app. However with time the quality of service has degraded. While the prices are comparatively low, the quality of the product is low. Further, they are always late. The delivery time shows 5 mins, but it's always 15-20 mins. Also skipping and switching products have become a norm recently.",
+          "metadata": {
+            "rating": 1,
+            "parent_record_id": "6aa5b5bf-fe5e-483b-93f0-099bbbf9d37c",
+            "source": "play_store",
+            "total_chunks": 1,
+            "app": "zepto",
+            "chunk_id": "886892dc-398a-4b13-b519-839319f16ba6",
+            "language": "en",
+            "date": "2026-06-29",
+            "chunk_index": 0
+          },
+          "distance": 0.3607274293899536
+        },
+        {
+          "id": "chunk-001",
+          "document": "I love shopping for groceries on this app. The delivery is always fast and the items are fresh.",
+          "metadata": {
+            "chunk_index": 0,
+            "parent_record_id": "record-001",
+            "total_chunks": 1,
+            "source": "play_store",
+            "language": "en",
+            "app": "zepto",
+            "date": "2025-06-15",
+            "rating": 5,
+            "chunk_id": "chunk-001"
+          },
+          "distance": 0.3725736737251282
+        },
+        {
+          "id": "02cfe176-ffce-4f57-9d2f-023e9e2a1cbf",
+          "document": "worst app than any other available on playstore, full scam by always delaying the order then delivering the order with wrong items and on complaining just sending a pre generated mail saying that just rate the restaurant bad and everything will be good. and if your order is wrong partially or fully they will not even bother to check just say that rate the restaurant bad, and your money is gone . I honestly feel like the local or new app are better at least you will get worth your money.",
+          "metadata": {
+            "parent_record_id": "6bf3200a-5d9b-439c-9649-d8513f6b5ef7",
+            "total_chunks": 1,
+            "chunk_index": 0,
+            "date": "2026-07-01",
+            "app": "swiggy_instamart",
+            "language": "en",
+            "chunk_id": "02cfe176-ffce-4f57-9d2f-023e9e2a1cbf",
+            "rating": 1,
+            "source": "play_store"
+          },
+          "distance": 0.3779246211051941
+        },
+        {
+          "id": "6a902c5c-6f64-402a-a95c-cdea50e83438",
+          "document": "Worst app ever! They just make you pay a cancellation fee of what you haven't cancelled and paid for the food! I don't recommend! they are just clueless of what they are doing. can't even choose a paying method without ordering !! 😕",
+          "metadata": {
+            "chunk_index": 0,
+            "chunk_id": "6a902c5c-6f64-402a-a95c-cdea50e83438",
+            "source": "play_store",
+            "app": "swiggy_instamart",
+            "date": "2026-06-27",
+            "language": "en",
+            "total_chunks": 1,
+            "parent_record_id": "fcc575b7-0530-4d99-a7a1-89388b8ceb64",
+            "rating": 1
+          },
+          "distance": 0.3780362606048584
+        },
+        {
+          "id": "8a1320ec-ca28-4350-b3e4-08ae90a1321f",
+          "document": "Very bad experience. I paid for my order but did not receive all the items. When I asked for a refund, Zepto refused without giving any proper solution. Be careful before ordering from this app. If something is missing, don't expect fair support. I have lost all trust in Zepto and will file a complaint in the Consumer Commission. Never using this app again!",
+          "metadata": {
+            "chunk_index": 0,
+            "source": "play_store",
+            "total_chunks": 1,
+            "app": "zepto",
+            "date": "2026-07-11",
+            "rating": 1,
+            "language": "en",
+            "chunk_id": "8a1320ec-ca28-4350-b3e4-08ae90a1321f",
+            "parent_record_id": "835545fd-3dac-49da-96a9-13c3bae905ab"
+          },
+          "distance": 0.388028085231781
+        },
+        {
+          "id": "d8614fee-be31-4f8d-83b6-89396f31a39d",
+          "document": "i usually don't review any app or website but blinkit is genuinely a great app to order the groceries. what ever i want , is on this app . it really reduced my burden a lot because before blinkit I used to go a long way to the market by myself but now I can see the daily uses on my doorstep just due to blinkit. Dilivery is just soo fast , employee's behaviour is great and the quality of food and goods are brilliant . so for me blinkit is the best app I've ever seen.",
+          "metadata": {
+            "source": "play_store",
+            "date": "2026-07-09",
+            "parent_record_id": "ed2644d7-10a1-4b30-a33e-a8a7011d075a",
+            "app": "blinkit",
+            "chunk_id": "d8614fee-be31-4f8d-83b6-89396f31a39d",
+            "total_chunks": 1,
+            "rating": 5,
+            "language": "en",
+            "chunk_index": 0
+          },
+          "distance": 0.3941166400909424
+        }
+      ],
+      "total_retrieved": 10
+    },
+    {
+      "question_id": "RQ2",
+      "label": "Exploration Barriers",
+      "semantic_query": "I wanted to try the pet food or beauty section but I was not sure about the quality or price. Ended up not buying.",
+      "metadata_filters": {
+        "note": "Prefer 1–3 star reviews for stronger signal on barriers and frustrations."
+      },
+      "chunks": [
+        {
+          "id": "57097ea8-50dc-434d-aa04-c7204fee4e9a",
+          "document": "Easy to use. Prices are competitive too. This is my favorite for food related anytime and anywhere. Nowadays don't trust it's delivery time shown. It will always be showing 2 mins or 3 mins and it will take 15 - 20 mins more.",
+          "metadata": {
+            "total_chunks": 1,
+            "chunk_id": "57097ea8-50dc-434d-aa04-c7204fee4e9a",
+            "chunk_index": 0,
+            "parent_record_id": "6567fd13-624c-4e9d-a37c-878e25306cef",
+            "rating": 4,
+            "source": "play_store",
+            "app": "swiggy_instamart",
+            "date": "2026-07-09",
+            "language": "en"
+          },
+          "distance": 0.5473000407218933
+        },
+        {
+          "id": "91c1aa0c-d3eb-4a0e-8a92-4f488133f641",
+          "document": "Decent platform, however return process has to be smooth if any item is near expiry or you don't like the quality because most of the items are food items. Alternatively you always have a nearby grocery shop where you can actually check quality and buy so in long run only quality and fresh food stuff will help",
+          "metadata": {
+            "chunk_index": 0,
+            "rating": 4,
+            "date": "2026-05-07",
+            "total_chunks": 1,
+            "chunk_id": "91c1aa0c-d3eb-4a0e-8a92-4f488133f641",
+            "app": "blinkit",
+            "language": "en",
+            "parent_record_id": "3e04d14f-25ba-4238-80b5-ac51ebfa8297",
+            "source": "play_store"
+          },
+          "distance": 0.5575522184371948
+        },
+        {
+          "id": "0fc5a68e-6a9e-4b99-85ce-9d890dc8be47",
+          "document": "I had a very disappointing experience with the chicken handi I ordered. The taste was completely off — the gravy was too oily and lacked proper flavor, and the chicken pieces were tough. The portion size was also much smaller than expected for the price. Overall, it did not feel fresh or worth the money at all. I would not recommend this to anyone.",
+          "metadata": {
+            "language": "en",
+            "app": "swiggy_instamart",
+            "chunk_id": "0fc5a68e-6a9e-4b99-85ce-9d890dc8be47",
+            "source": "play_store",
+            "parent_record_id": "9ed4aa4f-b22a-4597-94c9-91d3e7a62c7f",
+            "rating": 1,
+            "date": "2026-05-06",
+            "total_chunks": 1,
+            "chunk_index": 0
+          },
+          "distance": 0.5680906772613525
+        },
+        {
+          "id": "6e10471f-a849-458c-b7e8-9a97476f15b8",
+          "document": "Extremely disappointing customer service. I received a protein shake with an abnormal appearance and reported it with clear photos. Instead of investigating, Zepto sent contradictory template replies, ignored the actual food safety concern, and refused both a refund and replacement. They care more about closing tickets than protecting customers. Lost my trust completely. Buy food items at your own risk.",
+          "metadata": {
+            "chunk_index": 0,
+            "parent_record_id": "2b9a7ed4-cdf1-44c1-a87f-f8ce406b05f3",
+            "chunk_id": "6e10471f-a849-458c-b7e8-9a97476f15b8",
+            "language": "en",
+            "date": "2026-07-17",
+            "app": "zepto",
+            "rating": 1,
+            "source": "play_store",
+            "total_chunks": 1
+          },
+          "distance": 0.5845023989677429
+        },
+        {
+          "id": "c48add67-265c-4a17-afaa-a509b9749afd",
+          "document": "I am very disappointed with this order. The delivery was significantly delayed, and as a result, the food arrived cold and was no longer enjoyable. I paid for hot, freshly prepared food but did not receive the expected quality because of the late delivery. I requested appropriate compensation or a refund for this poor experience, but my request was also denied. This is unacceptable and has left me very dissatisfied with the overall service.",
+          "metadata": {
+            "source": "play_store",
+            "total_chunks": 1,
+            "chunk_index": 0,
+            "date": "2026-07-18",
+            "app": "swiggy_instamart",
+            "language": "en",
+            "rating": 1,
+            "parent_record_id": "dc0e43d9-dfdb-4266-bdcd-69e02a1b7d50",
+            "chunk_id": "c48add67-265c-4a17-afaa-a509b9749afd"
+          },
+          "distance": 0.5950838327407837
+        },
+        {
+          "id": "a0576a44-265c-43f3-a1d8-d582f3e98e8e",
+          "document": "Hello Blinkit Team, I really enjoy shopping on Blinkit because the delivery is fast and the product quality is good. I have one suggestion. While quantity options are available, many popular rice brands are not. In local grocery stores, customers can choose from a much wider range of brands. It would be great if Blinkit could add more rice brands and give customers a larger variety to choose from. This would make grocery shopping even more convenient. Thank you for considering this suggestio",
+          "metadata": {
+            "language": "en",
+            "rating": 5,
+            "chunk_id": "a0576a44-265c-43f3-a1d8-d582f3e98e8e",
+            "parent_record_id": "ec651f1b-f6b8-4d4a-bb38-0304693e5a01",
+            "total_chunks": 1,
+            "source": "play_store",
+            "app": "blinkit",
+            "chunk_index": 0,
+            "date": "2026-06-30"
+          },
+          "distance": 0.595458984375
+        },
+        {
+          "id": "43d0e59e-cb30-4bc6-a36b-02775cc741f7",
+          "document": "The food quality, the claims of protein and chicken on the app are highly questionable. Poorest customer service, with absolutely no resolution. They don't replay to emails. The chat service is just limited to stupid questions and queries. Useless. Extremely late delivery time. For 1.8km distance it can take 1 hr 45 mins that too for a salad with no option of cancelling it and it does it almost every time now. It comes on its own wishes. The prices are sooo high it's become unbearable now.",
+          "metadata": {
+            "app": "swiggy_instamart",
+            "parent_record_id": "cfd339d8-c546-4642-9da9-650c277abd41",
+            "chunk_id": "43d0e59e-cb30-4bc6-a36b-02775cc741f7",
+            "chunk_index": 0,
+            "rating": 1,
+            "date": "2026-07-12",
+            "source": "play_store",
+            "language": "en",
+            "total_chunks": 1
+          },
+          "distance": 0.5992064476013184
+        },
+        {
+          "id": "b55b8a28-34db-4f95-b408-091259f77baa",
+          "document": "Zepto experience is quite good for me. You get good prices and quality at the same time. I don't have to go out and buy veggies n groceries,they are delivered to me in just 10 mins. I had few issues with one or two orders also. Thankfully the support helped me. So, I would urge Zepto to keep doing the good work and give fresh vegetables/fruits and good quality stuff so that your customers always stick to you. Kudos🙂",
+          "metadata": {
+            "language": "en",
+            "total_chunks": 1,
+            "app": "zepto",
+            "rating": 5,
+            "chunk_id": "b55b8a28-34db-4f95-b408-091259f77baa",
+            "parent_record_id": "b0fec8aa-16d7-4668-a617-b196f57ff662",
+            "chunk_index": 0,
+            "date": "2026-07-09",
+            "source": "play_store"
+          },
+          "distance": 0.6007036566734314
+        },
+        {
+          "id": "f7a934ff-62d8-48da-929e-55dae80b8e15",
+          "document": "Excellent service! The delivery was super fast, the products were fresh, and everything arrived in perfect condition. The app is easy to use, prices are reasonable, and the delivery partner was polite and professional. A very convenient way to shop for daily essentials. Highly recommended!",
+          "metadata": {
+            "source": "play_store",
+            "rating": 5,
+            "chunk_id": "f7a934ff-62d8-48da-929e-55dae80b8e15",
+            "parent_record_id": "d98ce3e9-a5b4-4ef1-a381-bd44e152f59f",
+            "app": "blinkit",
+            "date": "2026-07-04",
+            "language": "en",
+            "total_chunks": 1,
+            "chunk_index": 0
+          },
+          "distance": 0.6075981855392456
+        },
+        {
+          "id": "bc9f5d63-a517-455c-9bdd-b47faccecafa",
+          "document": "The delivery was good, but I ordered Drools cat food that included free creamy lickable cat treats. I only received the cat food, and the free treats were missing. When I tried to report the issue or request a return, there was no option available in the Blinkit app. This was a very disappointing experience. Please look into this issue and provide the missing free treats or an appropriate resolution.",
+          "metadata": {
+            "rating": 3,
+            "source": "play_store",
+            "parent_record_id": "ba7d7452-59e4-4cd3-ae85-cbea1254b370",
+            "date": "2026-07-01",
+            "language": "en",
+            "chunk_index": 0,
+            "app": "blinkit",
+            "total_chunks": 1,
+            "chunk_id": "bc9f5d63-a517-455c-9bdd-b47faccecafa"
+          },
+          "distance": 0.6117141842842102
+        }
+      ],
+      "total_retrieved": 10
+    },
+    {
+      "question_id": "RQ3",
+      "label": "Discovery Pathways",
+      "semantic_query": "I discovered a new product because of a recommendation or offer and it became something I buy regularly now.",
+      "metadata_filters": {
+        "note": "4–5 star reviews more likely to contain positive discovery moments."
+      },
+      "chunks": [
+        {
+          "id": "chunk-003",
+          "document": "I only buy from the same categories every week. I never explore new sections of the app.",
+          "metadata": {
+            "parent_record_id": "record-003",
+            "source": "play_store",
+            "rating": 4,
+            "app": "blinkit",
+            "total_chunks": 1,
+            "date": "2025-08-01",
+            "language": "en",
+            "chunk_index": 0,
+            "chunk_id": "chunk-003"
+          },
+          "distance": 0.5236180424690247
+        },
+        {
+          "id": "0cd290d4-9525-4959-8ddf-83de6d8f3552",
+          "document": "I always had great service but once i got a wrong product...return or exchange will never happen, worst experience ...customer care is always off, I switched to instamart...I can see a lot of bad reviews...im sure you lost more customers",
+          "metadata": {
+            "total_chunks": 1,
+            "chunk_index": 0,
+            "date": "2026-07-08",
+            "parent_record_id": "e5d915c2-714b-4895-b074-d4f6398a66ca",
+            "chunk_id": "0cd290d4-9525-4959-8ddf-83de6d8f3552",
+            "rating": 1,
+            "source": "play_store",
+            "app": "zepto",
+            "language": "en"
+          },
+          "distance": 0.5353224277496338
+        },
+        {
+          "id": "4ff14f88-a5d2-4d72-982e-88ebc2aa111b",
+          "document": "Extremely disappointing service. I received a product that was not in proper condition, but instead of resolving the issue, customer support kept repeating the same responses and dragged the complaint on for hours. I was asked for explanations and details again and again for a very simple issue. As a customer, I paid full price for the product and expected to receive it in proper condition. Instead, I was left wasting my time trying to convince support that there was a genuine problem",
+          "metadata": {
+            "parent_record_id": "62ca7b7e-75ba-47d6-a134-f672ea65cfff",
+            "date": "2026-07-05",
+            "rating": 1,
+            "app": "blinkit",
+            "chunk_index": 0,
+            "source": "play_store",
+            "chunk_id": "4ff14f88-a5d2-4d72-982e-88ebc2aa111b",
+            "language": "en",
+            "total_chunks": 1
+          },
+          "distance": 0.5400530099868774
+        },
+        {
+          "id": "66d95ea7-f501-4972-a498-bae4c986807b",
+          "document": "worst app... expired products the main part is I have ordered a big order which has 32 items and 21 items... my one product is missing... and customer service is not helpful at all .. when I have paid I have the right to get my refund... I have mailed the customer support for 2 days.. but the response was worthless...",
+          "metadata": {
+            "chunk_index": 0,
+            "rating": 1,
+            "chunk_id": "66d95ea7-f501-4972-a498-bae4c986807b",
+            "date": "2026-07-10",
+            "source": "play_store",
+            "app": "zepto",
+            "total_chunks": 1,
+            "parent_record_id": "4ab215c8-6c23-4c35-9f0a-4b6c9c6fbf4d",
+            "language": "en"
+          },
+          "distance": 0.5438563823699951
+        },
+        {
+          "id": "650036c3-291b-412a-b642-d42640a374bf",
+          "document": "They show offers, different products and do not refund if the product is unavailable. the app showed offers and when the offer is used no cash back nor any reply from cc. I tried to reach out customer support through email, and instead of helping, I received the same message over and over again (10) messages inspite of sharing the requested details",
+          "metadata": {
+            "total_chunks": 1,
+            "source": "play_store",
+            "chunk_id": "650036c3-291b-412a-b642-d42640a374bf",
+            "date": "2026-07-24",
+            "app": "zepto",
+            "rating": 1,
+            "chunk_index": 0,
+            "language": "en",
+            "parent_record_id": "63252bf4-3add-428f-b93d-9f404de29057"
+          },
+          "distance": 0.5511218905448914
+        },
+        {
+          "id": "cad77cd1-47c1-41e2-b91c-2bde81b5d369",
+          "document": "very disappointed with the app. In the beginning app was doing good but nowadays if any of the items are damaged or even expired there is no way we could get a refund.Tried reaching customer support,there is no option to complain about the product no matter how expensive it is.",
+          "metadata": {
+            "rating": 1,
+            "chunk_id": "cad77cd1-47c1-41e2-b91c-2bde81b5d369",
+            "source": "play_store",
+            "total_chunks": 1,
+            "app": "zepto",
+            "parent_record_id": "60728672-003f-4900-8edc-d4dd9b435e66",
+            "language": "en",
+            "chunk_index": 0,
+            "date": "2026-05-11"
+          },
+          "distance": 0.560478925704956
+        },
+        {
+          "id": "c8e789f1-b7a0-4a3c-8d87-9477fece0933",
+          "document": "⭐ 1 Star Whenever I order groceries from this app, I end up facing the same issue. Either I receive a damaged product or my ordered item is replaced with something I never asked for. The biggest problem is that there is no proper option to return the unwanted replacement or get a fair resolution. Customer support keeps offering promo codes instead of solving the actual problem or providing a proper refund. This has happened multiple times, not just once. As a customer, I expect to receive the",
+          "metadata": {
+            "app": "blinkit",
+            "source": "play_store",
+            "chunk_id": "c8e789f1-b7a0-4a3c-8d87-9477fece0933",
+            "language": "en",
+            "parent_record_id": "9c13b96e-9c02-44e4-9339-5645afeb234d",
+            "rating": 1,
+            "chunk_index": 0,
+            "total_chunks": 1,
+            "date": "2026-06-25"
+          },
+          "distance": 0.5645436644554138
+        },
+        {
+          "id": "00868b14-aa6f-4c45-998c-6c68ce8ead89",
+          "document": "I received a product expecting it to be brand new and unused, but I noticed several issues immediately after unboxing: 1. The package did not have a factory seal. 2. There are visible marks on the product and packaging, as shown in the attached pictures. 3. The transparent body of the product has minor scratches. 4. There is a small leaf or some foreign particle attached to the product. 5. Dust particles are visible inside/on the mouse. Based on these observations, the product does not appe",
+          "metadata": {
+            "app": "zepto",
+            "source": "play_store",
+            "language": "en",
+            "parent_record_id": "68200433-86f4-44df-b89b-5983858511e1",
+            "total_chunks": 1,
+            "chunk_index": 0,
+            "rating": 1,
+            "chunk_id": "00868b14-aa6f-4c45-998c-6c68ce8ead89",
+            "date": "2026-07-21"
+          },
+          "distance": 0.570105791091919
+        },
+        {
+          "id": "633b182e-6962-403c-a40e-60fa07a9d144",
+          "document": "I used to love Zepto. But recently they have removed every offer from my account and have increased the price for me for some items. For the same area my friends are still getting offers and at a lower price tag. I used to order almost everyday. Now Eventually I will delete my account and uninstall the app. Very bad.",
+          "metadata": {
+            "rating": 1,
+            "app": "zepto",
+            "chunk_id": "633b182e-6962-403c-a40e-60fa07a9d144",
+            "parent_record_id": "26042c9e-d0c0-4fce-9ae0-3b6806ea3573",
+            "date": "2026-05-08",
+            "language": "en",
+            "total_chunks": 1,
+            "source": "play_store",
+            "chunk_index": 0
+          },
+          "distance": 0.5731091499328613
+        },
+        {
+          "id": "49d4b814-f4bb-4180-b6d1-c55eae084fb9",
+          "document": "I used to like this app. but it's full of ads nowadays. Too many ads. very annoying. if this continues, I'll uninstall this and buy my groceries offline. the product discounts on all my favourite products have reduced a lot. other apps give more discounts. and aggressively promoting their pay later and other new features ... very annoying.",
+          "metadata": {
+            "chunk_index": 0,
+            "parent_record_id": "f922444c-3a89-4339-abac-38875ad9cd9f",
+            "date": "2026-07-17",
+            "app": "zepto",
+            "language": "en",
+            "source": "play_store",
+            "total_chunks": 1,
+            "chunk_id": "49d4b814-f4bb-4180-b6d1-c55eae084fb9",
+            "rating": 2
+          },
+          "distance": 0.577916145324707
+        }
+      ],
+      "total_retrieved": 10
+    },
+    {
+      "question_id": "RQ4",
+      "label": "Role of Habit",
+      "semantic_query": "I have a fixed list I order every time. I don't really look at other sections because my list is already set.",
+      "metadata_filters": {
+        "note": "No filter. Look for mentions of fixed shopping lists, schedules, or auto-reorder behavior."
+      },
+      "chunks": [
+        {
+          "id": "d0d6a8c2-265c-4f4c-8127-813fd09ee42b",
+          "document": "I'm leaving this comment out of frustrations and expectations. After an hour of talking with the support agent and bots i didn't get any solution. And after all this what I did get is repeated responses about the order is on the way and no consequences. I hope I get some explanation on this issue as this caused a major breakdown in my group.",
+          "metadata": {
+            "source": "play_store",
+            "app": "zepto",
+            "chunk_id": "d0d6a8c2-265c-4f4c-8127-813fd09ee42b",
+            "language": "en",
+            "total_chunks": 1,
+            "rating": 1,
+            "date": "2026-05-14",
+            "chunk_index": 0,
+            "parent_record_id": "23f25695-10b7-4d0e-b0dd-06efe62bf1e6"
+          },
+          "distance": 0.5512732863426208
+        },
+        {
+          "id": "afd52e1f-d11a-4221-a1a9-759dd7bcf062",
+          "document": "I accidentally added an extra item after placing my order. There was no option to modify or remove the item, even though the order had not yet been packed or dispatched. This was very disappointing and made for a poor customer experience.",
+          "metadata": {
+            "parent_record_id": "2dba526d-52b4-4254-b694-44e3e4c4596a",
+            "rating": 1,
+            "language": "en",
+            "chunk_id": "afd52e1f-d11a-4221-a1a9-759dd7bcf062",
+            "app": "blinkit",
+            "chunk_index": 0,
+            "source": "play_store",
+            "date": "2026-06-19",
+            "total_chunks": 1
+          },
+          "distance": 0.571051836013794
+        },
+        {
+          "id": "67b1c22f-01bf-451b-839f-11afea049985",
+          "document": "This is extremely disappointing. My order arrived with items missing, and this is not the first time I've faced issues. I paid for the complete order and expect to receive everything I was charged for. This level of service is unacceptable. Please provide an immediate refund for the missing items and take steps to prevent this from happening again.",
+          "metadata": {
+            "date": "2026-07-05",
+            "app": "swiggy_instamart",
+            "total_chunks": 1,
+            "chunk_index": 0,
+            "parent_record_id": "cb4a8423-2f2a-497c-908a-4bf5d9dbd80d",
+            "chunk_id": "67b1c22f-01bf-451b-839f-11afea049985",
+            "rating": 1,
+            "source": "play_store",
+            "language": "en"
+          },
+          "distance": 0.5819531679153442
+        },
+        {
+          "id": "32836983-3063-42b2-b6a4-44b312811fa4",
+          "document": "Very disappointing experience. If customer care calls and informs you that one item is damaged, I strongly recommend cancelling the entire order instead of accepting the remaining items. I accepted the remaining items in good faith, expecting the refund for the undelivered item to be processed, but resolving the issue turned into a long and frustrating process with repetitive responses and no proper investigation. Customer support failed to address my genuine concern, and I have completely lost",
+          "metadata": {
+            "total_chunks": 1,
+            "app": "zepto",
+            "language": "en",
+            "parent_record_id": "58f9a898-a79f-4d11-93ae-498e342384e4",
+            "rating": 1,
+            "date": "2026-07-18",
+            "chunk_index": 0,
+            "chunk_id": "32836983-3063-42b2-b6a4-44b312811fa4",
+            "source": "play_store"
+          },
+          "distance": 0.582677960395813
+        },
+        {
+          "id": "6e0807f2-722f-41bd-a51c-b48af487f962",
+          "document": "Hi Zepto, I ordered some print out early in the morning on priority for school activity and ordered some more items along with it. Received other items and not the print. Disgusting Zepto. Hi Zepto, If an item is missed from your delivery, please arrange to deliver the missing item immediately. Alternatively, if we reorder the item right away as per your request, kindly waive the delivery and handling fees for that order. Thank you.",
+          "metadata": {
+            "language": "en",
+            "rating": 1,
+            "chunk_id": "6e0807f2-722f-41bd-a51c-b48af487f962",
+            "parent_record_id": "2cb4d984-230a-4a62-80df-b1442b6aeabf",
+            "source": "play_store",
+            "date": "2026-07-02",
+            "app": "zepto",
+            "chunk_index": 0,
+            "total_chunks": 1
+          },
+          "distance": 0.5842999219894409
+        },
+        {
+          "id": "fe1ecf7b-469f-463e-beb8-7a1ec2c2a11b",
+          "document": "Very disappointing service. This isn't a one-time issue—it happens repeatedly. When ordering multiple items, some are often left out, and the excuse is always, \"We forgot.\" Even after paying extra for priority delivery, they keep customers waiting for hours. Extremely careless service from such a big brand. Would not recommend.",
+          "metadata": {
+            "source": "play_store",
+            "app": "blinkit",
+            "chunk_id": "fe1ecf7b-469f-463e-beb8-7a1ec2c2a11b",
+            "date": "2026-06-25",
+            "total_chunks": 1,
+            "chunk_index": 0,
+            "rating": 1,
+            "parent_record_id": "e4956a68-9f9e-41f2-9092-08b122912132",
+            "language": "en"
+          },
+          "distance": 0.5922942161560059
+        },
+        {
+          "id": "56e3f109-efdd-42f5-821c-e636ee4d1d0d",
+          "document": "Extremely disappointed. I accidentally placed an order when I dropped my phone, and I soon realized there is absolutely no way to cancel or edit an order in the app. Even customer support refused to help. It’s shocking that a modern app doesn't allow for basic corrections or accidental clicks. I wanted to add more items, but instead, I’m stuck with an incomplete order I didn't mean to send yet.",
+          "metadata": {
+            "parent_record_id": "e0ee14f8-a844-4d9b-a04c-9c4581cd6d70",
+            "rating": 1,
+            "chunk_index": 0,
+            "date": "2026-05-03",
+            "source": "play_store",
+            "chunk_id": "56e3f109-efdd-42f5-821c-e636ee4d1d0d",
+            "language": "en",
+            "app": "zepto",
+            "total_chunks": 1
+          },
+          "distance": 0.6002536416053772
+        },
+        {
+          "id": "chunk-003",
+          "document": "I only buy from the same categories every week. I never explore new sections of the app.",
+          "metadata": {
+            "rating": 4,
+            "chunk_index": 0,
+            "chunk_id": "chunk-003",
+            "language": "en",
+            "app": "blinkit",
+            "total_chunks": 1,
+            "parent_record_id": "record-003",
+            "date": "2025-08-01",
+            "source": "play_store"
+          },
+          "distance": 0.611808717250824
+        },
+        {
+          "id": "378f838b-9e75-403e-b56e-d9acbf6c67b5",
+          "document": "If any item is not available, you should ask the customer for the remaining order he wants or not. I have ordered and main item which I want not available without any confirmation that item cancelled and remaining order sent which is not my primary requirement. I have ordered that item just to save delivery charges. And at the end support was very bad you have no option to raise complain",
+          "metadata": {
+            "chunk_index": 0,
+            "chunk_id": "378f838b-9e75-403e-b56e-d9acbf6c67b5",
+            "parent_record_id": "7a8d8d22-35fc-497b-a2a8-c935cb4c7f6e",
+            "app": "swiggy_instamart",
+            "date": "2026-05-20",
+            "total_chunks": 1,
+            "language": "en",
+            "source": "play_store",
+            "rating": 1
+          },
+          "distance": 0.6154792904853821
+        },
+        {
+          "id": "a9eace56-3e34-41da-b955-57a4abafd89a",
+          "document": "they do not update sold out items in the app. this has happened to me many times. I ordered necessary everyday items, thinking that it'll arrive in some time. when I received the order, the item was missing. this is absurd. worst delivery app, promote local.",
+          "metadata": {
+            "date": "2026-05-27",
+            "rating": 1,
+            "language": "en",
+            "chunk_index": 0,
+            "chunk_id": "a9eace56-3e34-41da-b955-57a4abafd89a",
+            "app": "zepto",
+            "source": "play_store",
+            "parent_record_id": "998d8301-7d00-400e-94ba-cb6b59616012",
+            "total_chunks": 1
+          },
+          "distance": 0.6156785488128662
+        }
+      ],
+      "total_retrieved": 10
+    },
+    {
+      "question_id": "RQ5",
+      "label": "Information Needs",
+      "semantic_query": "I would try the medicine or baby products section if I knew more about the brands or if there were reviews I could trust.",
+      "metadata_filters": {
+        "note": "No source filter. Look for qualifiers, conditions, and 'I wish' statements."
+      },
+      "chunks": [
+        {
+          "id": "65bdd4ad-fd2b-4db0-baf0-f9e451125122",
+          "document": "I like the service and range of the items available. I recently ordered from its pharma and the way this system is designed is very trustworthy. They are not delivering medicines without prescription, even if they are probiotics. They have an option of online doctor consultation. This service is highly commendable.",
+          "metadata": {
+            "language": "en",
+            "parent_record_id": "8f44bf06-037e-4a80-a5ed-5ae449f60513",
+            "chunk_index": 0,
+            "app": "blinkit",
+            "rating": 5,
+            "total_chunks": 1,
+            "source": "play_store",
+            "date": "2026-07-19",
+            "chunk_id": "65bdd4ad-fd2b-4db0-baf0-f9e451125122"
+          },
+          "distance": 0.5121022462844849
+        },
+        {
+          "id": "4444f040-a64a-4a28-973d-58002d00f33f",
+          "document": "I ordered baby diapers in Instamart.. They missed the product, they closed the direct conversation when I complained... And my product was not even refunded.... This has happened so many times, no one is responding... It's scary to buy products at Instamart... When I ask products are missing, there is no response.. If you cheat customers and take our money, what good will you do... Any mart you put in with the money you took unfairly will suffer losses.....",
+          "metadata": {
+            "parent_record_id": "2998edc1-0c5a-4a99-a7bd-24191c72a18e",
+            "source": "play_store",
+            "chunk_id": "4444f040-a64a-4a28-973d-58002d00f33f",
+            "language": "en",
+            "chunk_index": 0,
+            "app": "swiggy_instamart",
+            "total_chunks": 1,
+            "date": "2026-05-18",
+            "rating": 1
+          },
+          "distance": 0.5584388971328735
+        },
+        {
+          "id": "8b42a160-3272-4a7a-898d-f3bce8db639e",
+          "document": "I'm happy with Blinkit overall. The customer care service is very good and helpful. However, I've noticed that some products like milk and almonds don't always have a clearly visible expiry date. Also, milk has curdled several times after delivery. The return process works, but it takes time and causes inconvenience. Please ensure that expiry dates are clearly visible and that perishable items are checked properly before delivery. This would make the overall experience much better.",
+          "metadata": {
+            "language": "en",
+            "parent_record_id": "bd2bf1f2-42fc-4719-9c21-71d390ff34d5",
+            "chunk_index": 0,
+            "rating": 4,
+            "total_chunks": 1,
+            "source": "play_store",
+            "chunk_id": "8b42a160-3272-4a7a-898d-f3bce8db639e",
+            "date": "2026-07-14",
+            "app": "blinkit"
+          },
+          "distance": 0.5903352499008179
+        },
+        {
+          "id": "e88026e9-18f5-4692-81a0-38358c33eeb2",
+          "document": "As a regular customer, Blinkit is very helpful for me. The delivery is too fast often arriving at my door in under 15 minutes! Most importantly, the fruits, vegetables, and dairy products are always crisp, fresh, and securely packaged. It is incredibly convenient for daily needs and last-minute cravings. Highly recommended! Thank you for your service at Sangareddy.",
+          "metadata": {
+            "chunk_index": 0,
+            "source": "play_store",
+            "date": "2026-06-17",
+            "app": "blinkit",
+            "parent_record_id": "6ba14be5-7da2-4c53-a0e4-70b5be307ed2",
+            "language": "en",
+            "rating": 5,
+            "total_chunks": 1,
+            "chunk_id": "e88026e9-18f5-4692-81a0-38358c33eeb2"
+          },
+          "distance": 0.6353487372398376
+        },
+        {
+          "id": "21ed62d6-4bb7-41da-9eeb-41256256768d",
+          "document": "i used blinkit from last 5 to 6 months, almost every 2 to 3 days i have to order from it. and i faced a lot of issues with the product. if i order romaine lettuce in the evening, they never deliver it and they deliver green lettuce instead of romaine lettuce. and this not like 1 or 2 times but always! And if i order bell pepper yellow or red both, i always receive the spoiled! i mean if you don't have it then just don't sell it. the word limit is too little I can't write all my problems! 🤬😡🤬",
+          "metadata": {
+            "language": "en",
+            "date": "2026-06-17",
+            "total_chunks": 1,
+            "chunk_id": "21ed62d6-4bb7-41da-9eeb-41256256768d",
+            "rating": 1,
+            "parent_record_id": "5af96394-dfb1-48db-9fb9-5c387abce6e5",
+            "app": "blinkit",
+            "source": "play_store",
+            "chunk_index": 0
+          },
+          "distance": 0.6619216203689575
+        },
+        {
+          "id": "54d1cf19-417a-4f1f-9529-2907c39c1d9f",
+          "document": "\"Extremely disappointed with Zepto's terrible management. I ordered Brooke Bond Red Label Natural Care (250g) for ₹170, but they delivered a cheap substitute, Tata Tea Agni (250g), which costs only ₹75. When I raised a return, it took them over an hour just to pick it up. This is not a one-off mistake. Out of 10 orders, 9 times I receive either the wrong item, missing items, or expired products. There is zero quality control or management. I have had the worst experience multiple times now.",
+          "metadata": {
+            "source": "play_store",
+            "app": "zepto",
+            "date": "2026-07-10",
+            "language": "en",
+            "total_chunks": 1,
+            "chunk_index": 0,
+            "parent_record_id": "e95a8a96-c2cf-4c3d-adf2-74fb0e49d455",
+            "rating": 1,
+            "chunk_id": "54d1cf19-417a-4f1f-9529-2907c39c1d9f"
+          },
+          "distance": 0.6656087636947632
+        },
+        {
+          "id": "af20c383-0e4e-423b-a3c3-ede86abf818b",
+          "document": "I've been using Blinkit for a long time, and it has never disappointed me. The delivery is always super fast, products are fresh, and the app is very easy to use. Customer support is also quick and helpful whenever needed. It has made grocery shopping so convenient. Highly recommended❤️",
+          "metadata": {
+            "chunk_index": 0,
+            "app": "blinkit",
+            "source": "play_store",
+            "rating": 5,
+            "language": "en",
+            "total_chunks": 1,
+            "parent_record_id": "3247e6e5-0d92-4bfa-9ffd-b80338050dac",
+            "chunk_id": "af20c383-0e4e-423b-a3c3-ede86abf818b",
+            "date": "2026-07-06"
+          },
+          "distance": 0.6689698100090027
+        },
+        {
+          "id": "a0576a44-265c-43f3-a1d8-d582f3e98e8e",
+          "document": "Hello Blinkit Team, I really enjoy shopping on Blinkit because the delivery is fast and the product quality is good. I have one suggestion. While quantity options are available, many popular rice brands are not. In local grocery stores, customers can choose from a much wider range of brands. It would be great if Blinkit could add more rice brands and give customers a larger variety to choose from. This would make grocery shopping even more convenient. Thank you for considering this suggestio",
+          "metadata": {
+            "language": "en",
+            "total_chunks": 1,
+            "chunk_id": "a0576a44-265c-43f3-a1d8-d582f3e98e8e",
+            "source": "play_store",
+            "chunk_index": 0,
+            "app": "blinkit",
+            "parent_record_id": "ec651f1b-f6b8-4d4a-bb38-0304693e5a01",
+            "rating": 5,
+            "date": "2026-06-30"
+          },
+          "distance": 0.6730061769485474
+        },
+        {
+          "id": "d8c82711-da44-4e60-925c-70caf1c94e46",
+          "document": "Worst customer service. I’ve ordered milk from this app multiple times, and the milk keeps getting curdled while boiling. The same brand from nearby shops works perfectly fine. I reported the issue several times with photos, expiry details, and order proof, but they always blamed me and never provided a refund. Very disappointing experience with Zepto.",
+          "metadata": {
+            "chunk_id": "d8c82711-da44-4e60-925c-70caf1c94e46",
+            "rating": 1,
+            "total_chunks": 1,
+            "language": "en",
+            "chunk_index": 0,
+            "date": "2026-05-13",
+            "source": "play_store",
+            "app": "zepto",
+            "parent_record_id": "60ce20a4-6809-4cb4-95a4-6c1e81a6a326"
+          },
+          "distance": 0.6736477613449097
+        },
+        {
+          "id": "b778c0c0-52c0-4128-b8ec-ada0c6040f14",
+          "document": "⭐⭐⭐⭐⭐ Blinkit is one of the best delivery apps I've used. The delivery is always super fast, products are fresh, and the packaging is excellent. I also love initiatives like the ambulance service—it shows Blinkit cares about people, not just business. The app is easy to use, and the delivery partners are polite and professional. My only small suggestion is that I rarely receive good offers or discount coupons. I hope Blinkit rewards loyal customers with better deals. Overall, an amazing experie",
+          "metadata": {
+            "date": "2026-07-23",
+            "app": "blinkit",
+            "chunk_index": 0,
+            "language": "en",
+            "source": "play_store",
+            "parent_record_id": "0d9dd400-819b-4792-a32d-888bdf3dbf00",
+            "total_chunks": 1,
+            "chunk_id": "b778c0c0-52c0-4128-b8ec-ada0c6040f14",
+            "rating": 5
+          },
+          "distance": 0.6743682622909546
+        }
+      ],
+      "total_retrieved": 10
+    },
+    {
+      "question_id": "RQ6",
+      "label": "Recurring Frustrations",
+      "semantic_query": "The app is frustrating because I can never find what I am looking for. The search is bad and categories are confusing.",
+      "metadata_filters": {
+        "rating_lte": 3,
+        "note": "Filter to 1–3 star reviews for the strongest frustration signal."
+      },
+      "chunks": [
+        {
+          "id": "chunk-002",
+          "document": "The app keeps crashing when I try to browse different categories. Very frustrating experience.",
+          "metadata": {
+            "app": "zepto",
+            "source": "play_store",
+            "date": "2025-07-20",
+            "chunk_index": 0,
+            "language": "en",
+            "parent_record_id": "record-002",
+            "total_chunks": 1,
+            "chunk_id": "chunk-002",
+            "rating": 2
+          },
+          "distance": 0.3306599259376526
+        },
+        {
+          "id": "chunk-005",
+          "document": "The search and browsing experience needs improvement. It is hard to discover new categories.",
+          "metadata": {
+            "chunk_index": 0,
+            "rating": 3,
+            "app": "swiggy_instamart",
+            "parent_record_id": "record-005",
+            "chunk_id": "chunk-005",
+            "language": "en",
+            "total_chunks": 1,
+            "date": "2025-09-05",
+            "source": "play_store"
+          },
+          "distance": 0.4188842177391052
+        },
+        {
+          "id": "49d4b814-f4bb-4180-b6d1-c55eae084fb9",
+          "document": "I used to like this app. but it's full of ads nowadays. Too many ads. very annoying. if this continues, I'll uninstall this and buy my groceries offline. the product discounts on all my favourite products have reduced a lot. other apps give more discounts. and aggressively promoting their pay later and other new features ... very annoying.",
+          "metadata": {
+            "total_chunks": 1,
+            "chunk_index": 0,
+            "language": "en",
+            "parent_record_id": "f922444c-3a89-4339-abac-38875ad9cd9f",
+            "source": "play_store",
+            "chunk_id": "49d4b814-f4bb-4180-b6d1-c55eae084fb9",
+            "app": "zepto",
+            "rating": 2,
+            "date": "2026-07-17"
+          },
+          "distance": 0.4258354902267456
+        },
+        {
+          "id": "43162e96-0909-4634-bc21-0f300942a72b",
+          "document": "very buggy app, unable to use the app always says nothing here.. and some listing disappear just like that.. and sometimes it shows error messages and other times it says VPN is active! if you keep this up....buddy Amanzon Now is giving me cashback that you never gave since your inception, I am a long time user since grofer days! if you block my access and not let me shop at your platform I can just as easily shift to Amazon Now!! just tried placing order now but had to order from Amazon NOW!!",
+          "metadata": {
+            "parent_record_id": "2b7300c8-ce4d-4862-914d-da108d35b799",
+            "language": "en",
+            "rating": 1,
+            "app": "blinkit",
+            "source": "play_store",
+            "date": "2026-07-01",
+            "total_chunks": 1,
+            "chunk_index": 0,
+            "chunk_id": "43162e96-0909-4634-bc21-0f300942a72b"
+          },
+          "distance": 0.4462432861328125
+        },
+        {
+          "id": "f64430ea-6d6c-4566-abd0-e6b6e9516a03",
+          "document": "Worst app. It shows 4 mins before ordering as soon as you order it will increase time. It took more than 35 mins for order to reach me. Hence cancelled my order, now refund will take 5 days. I appeal Bumrah please think before advertising this brand. Edition after long time : Still same issue my order is getting delivered since more than 1 hour. first delivered the falty product later replacement. in total 2 hours. I think after this order it is better to uninstall the app. other apps work wel.",
+          "metadata": {
+            "date": "2026-05-16",
+            "chunk_index": 0,
+            "total_chunks": 1,
+            "app": "zepto",
+            "language": "en",
+            "chunk_id": "f64430ea-6d6c-4566-abd0-e6b6e9516a03",
+            "parent_record_id": "9d05ebda-d0d1-42d5-8518-11eb6697c5cb",
+            "source": "play_store",
+            "rating": 1
+          },
+          "distance": 0.4590115547180176
+        },
+        {
+          "id": "cad77cd1-47c1-41e2-b91c-2bde81b5d369",
+          "document": "very disappointed with the app. In the beginning app was doing good but nowadays if any of the items are damaged or even expired there is no way we could get a refund.Tried reaching customer support,there is no option to complain about the product no matter how expensive it is.",
+          "metadata": {
+            "source": "play_store",
+            "parent_record_id": "60728672-003f-4900-8edc-d4dd9b435e66",
+            "app": "zepto",
+            "chunk_index": 0,
+            "rating": 1,
+            "language": "en",
+            "total_chunks": 1,
+            "date": "2026-05-11",
+            "chunk_id": "cad77cd1-47c1-41e2-b91c-2bde81b5d369"
+          },
+          "distance": 0.45929133892059326
+        },
+        {
+          "id": "237864f5-136d-43ae-96f7-194af5780e35",
+          "document": "this apps is very useful and convenient but there is one major problem its electronics are not very good it doesn't even have school project things like sort of bulb holders or mini motors and the electronics are not of very good quality 😕 hear me out you have to do some quite working on your electronic system trust me then it will be much better",
+          "metadata": {
+            "app": "blinkit",
+            "parent_record_id": "6f4356a0-7327-46fe-9a18-3d13a6e95073",
+            "source": "play_store",
+            "language": "en",
+            "total_chunks": 1,
+            "date": "2026-05-08",
+            "chunk_index": 0,
+            "rating": 3,
+            "chunk_id": "237864f5-136d-43ae-96f7-194af5780e35"
+          },
+          "distance": 0.4767554998397827
+        },
+        {
+          "id": "92700a5c-668a-4253-94c7-a24cb742bfef",
+          "document": "It's now the worst app.Especially if you want to deliver to another location or send someone anything.Incompetent delivery partners who ask you to get your order from the street! And not a single delivery person reads the address, they only follow the map, which never shows real location. It's now the most frustrating app.",
+          "metadata": {
+            "app": "blinkit",
+            "chunk_index": 0,
+            "parent_record_id": "080600d3-b035-4c19-b48c-d9d480948925",
+            "rating": 1,
+            "source": "play_store",
+            "chunk_id": "92700a5c-668a-4253-94c7-a24cb742bfef",
+            "language": "en",
+            "total_chunks": 1,
+            "date": "2026-06-01"
+          },
+          "distance": 0.47763383388519287
+        },
+        {
+          "id": "505cb493-0def-4e9b-9e5d-fdf12aa8f3c8",
+          "document": "This is one of the worst apps I've ever used. I ordered 5 items but received only 4, even though I paid for all 5. When I contacted customer support, they refused to refund the missing item. To make things worse, they even blocked my access to customer support. This feels like a scam. I strongly recommend not installing this app. It doesn't even deserve 1 star and another thing when u put bad review they say send u r query to this support mail they don't reply to u r mail too.",
+          "metadata": {
+            "source": "play_store",
+            "rating": 1,
+            "total_chunks": 1,
+            "date": "2026-07-18",
+            "app": "swiggy_instamart",
+            "language": "en",
+            "chunk_index": 0,
+            "chunk_id": "505cb493-0def-4e9b-9e5d-fdf12aa8f3c8",
+            "parent_record_id": "60bee352-12ad-4634-870d-9a7a1930f799"
+          },
+          "distance": 0.47771281003952026
+        },
+        {
+          "id": "7aec91c9-06fd-469e-bf73-87d62c23acb4",
+          "document": "“I had a very disappointing experience with this app. The delivery was much later than the promised time, and there was no proper communication regarding the delay. I contacted customer support multiple times, but the responses were slow and unhelpful. This kind of service is frustrating for customers who depend on timely delivery.” “My order arrived with several missing items, which was extremely disappointing. Even after reporting the issue immediately, the refund process took far too long.",
+          "metadata": {
+            "source": "play_store",
+            "date": "2026-05-07",
+            "parent_record_id": "d12c46c3-c31b-49dc-beb1-1017efa2bd68",
+            "app": "zepto",
+            "language": "en",
+            "total_chunks": 1,
+            "chunk_index": 0,
+            "chunk_id": "7aec91c9-06fd-469e-bf73-87d62c23acb4",
+            "rating": 1
+          },
+          "distance": 0.47803330421447754
+        }
+      ],
+      "total_retrieved": 10
+    },
+    {
+      "question_id": "RQ7",
+      "label": "Experimental Segments",
+      "semantic_query": "Since we had a baby I started buying so many new things from the app. Or since I got a dog I started exploring the pet section.",
+      "metadata_filters": {
+        "note": "Look for life-event triggers: new baby, new pet, moving house, health goal, new city."
+      },
+      "chunks": [
+        {
+          "id": "chunk-003",
+          "document": "I only buy from the same categories every week. I never explore new sections of the app.",
+          "metadata": {
+            "chunk_index": 0,
+            "rating": 4,
+            "parent_record_id": "record-003",
+            "chunk_id": "chunk-003",
+            "total_chunks": 1,
+            "date": "2025-08-01",
+            "source": "play_store",
+            "app": "blinkit",
+            "language": "en"
+          },
+          "distance": 0.3604726195335388
+        },
+        {
+          "id": "chunk-001",
+          "document": "I love shopping for groceries on this app. The delivery is always fast and the items are fresh.",
+          "metadata": {
+            "rating": 5,
+            "chunk_id": "chunk-001",
+            "total_chunks": 1,
+            "chunk_index": 0,
+            "parent_record_id": "record-001",
+            "language": "en",
+            "date": "2025-06-15",
+            "app": "zepto",
+            "source": "play_store"
+          },
+          "distance": 0.4782031178474426
+        },
+        {
+          "id": "cad77cd1-47c1-41e2-b91c-2bde81b5d369",
+          "document": "very disappointed with the app. In the beginning app was doing good but nowadays if any of the items are damaged or even expired there is no way we could get a refund.Tried reaching customer support,there is no option to complain about the product no matter how expensive it is.",
+          "metadata": {
+            "chunk_index": 0,
+            "rating": 1,
+            "total_chunks": 1,
+            "date": "2026-05-11",
+            "chunk_id": "cad77cd1-47c1-41e2-b91c-2bde81b5d369",
+            "source": "play_store",
+            "app": "zepto",
+            "language": "en",
+            "parent_record_id": "60728672-003f-4900-8edc-d4dd9b435e66"
+          },
+          "distance": 0.5231555700302124
+        },
+        {
+          "id": "087eabc7-8791-47c6-afcf-0cc9c7a22b4e",
+          "document": "\"Great service! My order was delivered very quickly, and all the items were fresh and well-packed. The app is easy to use, and the delivery partners are polite and professional. Very convenient for last-minute grocery needs. Highly recommended!\"",
+          "metadata": {
+            "chunk_id": "087eabc7-8791-47c6-afcf-0cc9c7a22b4e",
+            "chunk_index": 0,
+            "total_chunks": 1,
+            "parent_record_id": "1e8081d4-be93-4520-a4a1-fafa44ff871f",
+            "source": "play_store",
+            "rating": 5,
+            "app": "blinkit",
+            "language": "en",
+            "date": "2026-06-07"
+          },
+          "distance": 0.5253247618675232
+        },
+        {
+          "id": "49d4b814-f4bb-4180-b6d1-c55eae084fb9",
+          "document": "I used to like this app. but it's full of ads nowadays. Too many ads. very annoying. if this continues, I'll uninstall this and buy my groceries offline. the product discounts on all my favourite products have reduced a lot. other apps give more discounts. and aggressively promoting their pay later and other new features ... very annoying.",
+          "metadata": {
+            "chunk_id": "49d4b814-f4bb-4180-b6d1-c55eae084fb9",
+            "chunk_index": 0,
+            "parent_record_id": "f922444c-3a89-4339-abac-38875ad9cd9f",
+            "total_chunks": 1,
+            "app": "zepto",
+            "date": "2026-07-17",
+            "rating": 2,
+            "language": "en",
+            "source": "play_store"
+          },
+          "distance": 0.5287160277366638
+        },
+        {
+          "id": "f7a934ff-62d8-48da-929e-55dae80b8e15",
+          "document": "Excellent service! The delivery was super fast, the products were fresh, and everything arrived in perfect condition. The app is easy to use, prices are reasonable, and the delivery partner was polite and professional. A very convenient way to shop for daily essentials. Highly recommended!",
+          "metadata": {
+            "parent_record_id": "d98ce3e9-a5b4-4ef1-a381-bd44e152f59f",
+            "chunk_index": 0,
+            "source": "play_store",
+            "date": "2026-07-04",
+            "total_chunks": 1,
+            "language": "en",
+            "app": "blinkit",
+            "rating": 5,
+            "chunk_id": "f7a934ff-62d8-48da-929e-55dae80b8e15"
+          },
+          "distance": 0.5337427854537964
+        },
+        {
+          "id": "91fa5f44-b084-4487-b70a-2c2c83bb566f",
+          "document": "best app ever as it makes our work easy but the minus point is that it have limited options only. I want to order a football but did'nt like and when I scrolled down I thought I might get some other options but did'nt get any other. But still, one of the best app ever(for me).",
+          "metadata": {
+            "rating": 4,
+            "source": "play_store",
+            "chunk_id": "91fa5f44-b084-4487-b70a-2c2c83bb566f",
+            "chunk_index": 0,
+            "language": "en",
+            "parent_record_id": "5f6c27b6-114e-42e9-9910-9a04823c112e",
+            "date": "2026-05-10",
+            "total_chunks": 1,
+            "app": "blinkit"
+          },
+          "distance": 0.5357485413551331
+        },
+        {
+          "id": "e028ed5f-bdd4-404b-ac81-ed31dc1286d0",
+          "document": "I used to actually like to use this app since it showed the right prices and all of that but now since the last one hour my order hasn't come , when I checked, they didn't even assign me a delivery partner till now, still waiting for my order... blinkit it much better though they prices are higher, you will get your groceries and all quicker atleast unlike this app.. and coupons are so bad to be honest...y'all I am telling you all the reviews are true!",
+          "metadata": {
+            "source": "play_store",
+            "date": "2026-07-02",
+            "app": "zepto",
+            "total_chunks": 1,
+            "chunk_id": "e028ed5f-bdd4-404b-ac81-ed31dc1286d0",
+            "rating": 1,
+            "language": "en",
+            "parent_record_id": "2f450336-163d-461a-9dbf-635f2aabbea1",
+            "chunk_index": 0
+          },
+          "distance": 0.5399078130722046
+        },
+        {
+          "id": "d8614fee-be31-4f8d-83b6-89396f31a39d",
+          "document": "i usually don't review any app or website but blinkit is genuinely a great app to order the groceries. what ever i want , is on this app . it really reduced my burden a lot because before blinkit I used to go a long way to the market by myself but now I can see the daily uses on my doorstep just due to blinkit. Dilivery is just soo fast , employee's behaviour is great and the quality of food and goods are brilliant . so for me blinkit is the best app I've ever seen.",
+          "metadata": {
+            "parent_record_id": "ed2644d7-10a1-4b30-a33e-a8a7011d075a",
+            "chunk_id": "d8614fee-be31-4f8d-83b6-89396f31a39d",
+            "app": "blinkit",
+            "language": "en",
+            "date": "2026-07-09",
+            "chunk_index": 0,
+            "source": "play_store",
+            "total_chunks": 1,
+            "rating": 5
+          },
+          "distance": 0.5437157154083252
+        },
+        {
+          "id": "6f29beaf-44db-418b-a1f1-785b47934e71",
+          "document": "I’ve been using the Blinkit app for quite some time, and the experience has been amazing. The delivery is super fast, the app interface is easy to use, and the products are usually fresh and well-packed. I also like the wide variety of groceries, snacks, household items, and daily essentials available. The delivery partners are polite, and customer support is helpful whenever needed. Overall, Blinkit makes shopping very convenient and saves a lot of time. Highly recommended!",
+          "metadata": {
+            "source": "play_store",
+            "total_chunks": 1,
+            "chunk_index": 0,
+            "rating": 5,
+            "date": "2026-05-18",
+            "chunk_id": "6f29beaf-44db-418b-a1f1-785b47934e71",
+            "app": "blinkit",
+            "language": "en",
+            "parent_record_id": "7c492ee1-8fde-4053-bc34-b9be8034d6b1"
+          },
+          "distance": 0.5473502278327942
+        }
+      ],
+      "total_retrieved": 10
+    },
+    {
+      "question_id": "RQ8",
+      "label": "Unmet Needs",
+      "semantic_query": "I wish Zepto had better options for organic food or more variety in the premium section. There are things I would buy if they were available.",
+      "metadata_filters": {
+        "note": "Look for 'I wish', 'why don't they have', 'missing', 'should add', 'no option for'."
+      },
+      "chunks": [
+        {
+          "id": "ab3a3b27-e3dd-4592-a0d3-e7ce0b093068",
+          "document": "Zepto is not the same anymore. The quality of vegetables has noticeably declined. When I tried contacting customer support through the app, I couldn't get a response and had to send an email instead. What disappointed me most was not the product quality, but the customer service. After sharing photos and explaining the issue, I received a generic response claiming the products were fresh at dispatch, effectively dismissin",
+          "metadata": {
+            "language": "en",
+            "total_chunks": 1,
+            "date": "2026-06-02",
+            "chunk_id": "ab3a3b27-e3dd-4592-a0d3-e7ce0b093068",
+            "source": "play_store",
+            "parent_record_id": "305d9e40-64a8-4abb-8c6b-61762302bc8d",
+            "app": "zepto",
+            "rating": 1,
+            "chunk_index": 0
+          },
+          "distance": 0.30847597122192383
+        },
+        {
+          "id": "b55b8a28-34db-4f95-b408-091259f77baa",
+          "document": "Zepto experience is quite good for me. You get good prices and quality at the same time. I don't have to go out and buy veggies n groceries,they are delivered to me in just 10 mins. I had few issues with one or two orders also. Thankfully the support helped me. So, I would urge Zepto to keep doing the good work and give fresh vegetables/fruits and good quality stuff so that your customers always stick to you. Kudos🙂",
+          "metadata": {
+            "chunk_id": "b55b8a28-34db-4f95-b408-091259f77baa",
+            "parent_record_id": "b0fec8aa-16d7-4668-a617-b196f57ff662",
+            "source": "play_store",
+            "app": "zepto",
+            "total_chunks": 1,
+            "language": "en",
+            "rating": 5,
+            "chunk_index": 0,
+            "date": "2026-07-09"
+          },
+          "distance": 0.3313521146774292
+        },
+        {
+          "id": "fcef29dd-6242-4d09-a281-3785c9bb623d",
+          "document": "This is one of the worst grocery delivery apps I've used. I ordered milk and other groceries, but the vegetables were not fresh and the milk was spoiled—it curdled as soon as I heated it. I contacted customer support and even shared photos as proof, but instead of resolving the issue, they kept asking for different photos and never provided a proper refund. The customer service was very disappointing. Based on my experience, I would not recommend Zepto. I've had much better experiences with othe",
+          "metadata": {
+            "rating": 1,
+            "parent_record_id": "160f6127-fc88-4c19-a24a-6b1d6ffe224e",
+            "date": "2026-06-23",
+            "total_chunks": 1,
+            "chunk_id": "fcef29dd-6242-4d09-a281-3785c9bb623d",
+            "language": "en",
+            "chunk_index": 0,
+            "app": "zepto",
+            "source": "play_store"
+          },
+          "distance": 0.35381919145584106
+        },
+        {
+          "id": "002f31e9-e6b9-416a-8469-fb4bb0b02336",
+          "document": "Zepto has absolute garbage customer service. If you buy any item and it arrives rotten, spoiled, or stale, they refuse to replace or return it. Instead of solving the issue, their support team just gives the same typical, scripted, stupid answers every single time. They do not care about the customers or the quality of food they send. It is a complete waste of money. Do not buy from Zeptoboycott this app!",
+          "metadata": {
+            "parent_record_id": "7b4a303d-7585-4888-b4a6-2436ef3029e3",
+            "chunk_index": 0,
+            "app": "zepto",
+            "total_chunks": 1,
+            "language": "en",
+            "rating": 1,
+            "chunk_id": "002f31e9-e6b9-416a-8469-fb4bb0b02336",
+            "source": "play_store",
+            "date": "2026-07-14"
+          },
+          "distance": 0.37851500511169434
+        },
+        {
+          "id": "86070e3e-e9d3-4a91-a71e-eb409cb4188a",
+          "document": "⭐⭐⭐⭐⭐ Excellent experience with Zepto! The delivery was super fast, the products were fresh, and everything arrived neatly packed. The app is easy to use, prices are reasonable, and the delivery partner was polite and professional. It's very convenient for last-minute grocery needs. Highly recommended!",
+          "metadata": {
+            "chunk_id": "86070e3e-e9d3-4a91-a71e-eb409cb4188a",
+            "chunk_index": 0,
+            "app": "zepto",
+            "rating": 5,
+            "language": "en",
+            "date": "2026-07-14",
+            "total_chunks": 1,
+            "source": "play_store",
+            "parent_record_id": "96d815d6-99cf-4331-9bac-787b31f36f0d"
+          },
+          "distance": 0.40309977531433105
+        },
+        {
+          "id": "ba642e20-1ab0-458f-b53c-af5179d454c8",
+          "document": "Zepto is better than other 10-minute delivery brands. Here, you get products at prices even lower than the MRP, and there are no delivery charges. The delivery is very fast, it's eco-friendly, and the prices are much lower than those on other delivery apps. So, shop from Zepto!And this is my real opinion 👍🏻😊",
+          "metadata": {
+            "date": "2026-07-01",
+            "app": "zepto",
+            "rating": 5,
+            "language": "en",
+            "source": "play_store",
+            "total_chunks": 1,
+            "chunk_index": 0,
+            "chunk_id": "ba642e20-1ab0-458f-b53c-af5179d454c8",
+            "parent_record_id": "c41d6ce2-1a06-47e5-bf53-5e9a04ccd5cd"
+          },
+          "distance": 0.40335261821746826
+        },
+        {
+          "id": "751bd0f3-8158-4267-a867-9280b8e8cc8f",
+          "document": "I have placed very limited orders on Zepto, but even with those, I've faced problems. Sometimes I receive the wrong product, sometimes the order is incomplete, and customer care does not take responsibility for these issues. Very Bad Experience. Not Recommended to anyone.",
+          "metadata": {
+            "total_chunks": 1,
+            "date": "2026-07-24",
+            "app": "zepto",
+            "chunk_index": 0,
+            "source": "play_store",
+            "chunk_id": "751bd0f3-8158-4267-a867-9280b8e8cc8f",
+            "parent_record_id": "93a1878a-e664-4c6d-a47d-4cd5b859b9cf",
+            "rating": 1,
+            "language": "en"
+          },
+          "distance": 0.4245220422744751
+        },
+        {
+          "id": "ed55829a-6b75-4a49-8540-6c50dc7ef874",
+          "document": "Zepto used to be fast and reliable . Unfortunately NOT ANY MORE. Just today I received my order and one item was missing. On complaining they simply denied it saying that seller confirmed it is delivered. They have resorted to these cheap tricks now to increase their revenue. GOODBYE ZEPTO.",
+          "metadata": {
+            "language": "en",
+            "rating": 1,
+            "app": "zepto",
+            "date": "2026-06-20",
+            "parent_record_id": "7fb624f8-d0fc-42a3-8be5-51347bc2258a",
+            "chunk_index": 0,
+            "chunk_id": "ed55829a-6b75-4a49-8540-6c50dc7ef874",
+            "source": "play_store",
+            "total_chunks": 1
+          },
+          "distance": 0.433735728263855
+        },
+        {
+          "id": "8978a9e1-a9ae-4638-9d65-2bca5f483703",
+          "document": "Very disappointed with Zepto. This is the third time I've received poor-quality products. The grapes were spoiled and had a bad smell, making them completely unusable. I also returned the tender coconut because I didn't receive the correct quantity, but my refund still hasn't been credited. Customer support doesn't listen to customers or resolve issues properly, and there's not even an option to explain the problem through chat in the Help section. This has been a very frustrating experience.",
+          "metadata": {
+            "total_chunks": 1,
+            "chunk_index": 0,
+            "language": "en",
+            "chunk_id": "8978a9e1-a9ae-4638-9d65-2bca5f483703",
+            "parent_record_id": "d3cbf64e-7bbe-4297-b873-eafd35587540",
+            "date": "2026-06-27",
+            "rating": 1,
+            "app": "zepto",
+            "source": "play_store"
+          },
+          "distance": 0.44122934341430664
+        },
+        {
+          "id": "8191d174-fd4c-4774-a256-d31dde17852b",
+          "document": "As a regular Zepto customer, I have recently noticed a significant increase in the prices of several products that I frequently order. What's more concerning is that many of these products are available at lower prices on competing platforms. For ex, Amul Butter 500g is being sold at around 310, while the same product is available for approx. ₹295 on BigBasket. Along with the growing number of customer concerns being shared online, such pricing practices may negatively impact the cust. base",
+          "metadata": {
+            "parent_record_id": "5f1429f6-feab-4060-9dc3-e1d2449f36b7",
+            "chunk_index": 0,
+            "language": "en",
+            "total_chunks": 1,
+            "source": "play_store",
+            "chunk_id": "8191d174-fd4c-4774-a256-d31dde17852b",
+            "app": "zepto",
+            "date": "2026-06-21",
+            "rating": 1
+          },
+          "distance": 0.4449653625488281
+        }
+      ],
+      "total_retrieved": 10
+    }
+  ]
+}

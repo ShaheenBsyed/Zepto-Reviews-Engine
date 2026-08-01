@@ -1,0 +1,885 @@
+{
+  "review_timestamp": "2026-08-01T20:56:55.301738",
+  "num_clusters": 146,
+  "num_themes": 146,
+  "noise_ratio": 0.43070934256055365,
+  "notes": [
+    {
+      "cluster_id": 0,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 1,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 2,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 3,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 4,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 5,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 6,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 7,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 8,
+      "theme_name": null,
+      "num_samples": 7,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 9,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 10,
+      "theme_name": null,
+      "num_samples": 9,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 11,
+      "theme_name": null,
+      "num_samples": 8,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 12,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 13,
+      "theme_name": null,
+      "num_samples": 9,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 14,
+      "theme_name": null,
+      "num_samples": 8,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 15,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 16,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 17,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 18,
+      "theme_name": null,
+      "num_samples": 9,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 19,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 20,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 21,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 22,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 23,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 24,
+      "theme_name": null,
+      "num_samples": 8,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 25,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 26,
+      "theme_name": null,
+      "num_samples": 7,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 27,
+      "theme_name": null,
+      "num_samples": 9,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 28,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 29,
+      "theme_name": null,
+      "num_samples": 9,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 30,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 31,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 32,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 33,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 34,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 35,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 36,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 37,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 38,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 39,
+      "theme_name": null,
+      "num_samples": 8,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 40,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 41,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 42,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 43,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 44,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 45,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 46,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 47,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 48,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 49,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 50,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 51,
+      "theme_name": null,
+      "num_samples": 8,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 52,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 53,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 54,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 55,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 56,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 57,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 58,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 59,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 60,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 61,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 62,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 63,
+      "theme_name": null,
+      "num_samples": 8,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 64,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 65,
+      "theme_name": null,
+      "num_samples": 9,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 66,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 67,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 68,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 69,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 70,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 71,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 72,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 73,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 74,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 75,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 76,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 77,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 78,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 79,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 80,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 81,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 82,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 83,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 84,
+      "theme_name": null,
+      "num_samples": 7,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 85,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 86,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 87,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 88,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 89,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 90,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 91,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 92,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 93,
+      "theme_name": null,
+      "num_samples": 7,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 94,
+      "theme_name": null,
+      "num_samples": 9,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 95,
+      "theme_name": null,
+      "num_samples": 7,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 96,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 97,
+      "theme_name": null,
+      "num_samples": 9,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 98,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 99,
+      "theme_name": null,
+      "num_samples": 8,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 100,
+      "theme_name": null,
+      "num_samples": 9,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 101,
+      "theme_name": null,
+      "num_samples": 7,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 102,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 103,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 104,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 105,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 106,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 107,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 108,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 109,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 110,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 111,
+      "theme_name": null,
+      "num_samples": 8,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 112,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 113,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 114,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 115,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 116,
+      "theme_name": null,
+      "num_samples": 7,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 117,
+      "theme_name": null,
+      "num_samples": 9,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 118,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 119,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 120,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 121,
+      "theme_name": null,
+      "num_samples": 9,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 122,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 123,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 124,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 125,
+      "theme_name": null,
+      "num_samples": 8,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 126,
+      "theme_name": null,
+      "num_samples": 9,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 127,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 128,
+      "theme_name": null,
+      "num_samples": 9,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 129,
+      "theme_name": null,
+      "num_samples": 7,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 130,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 131,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 132,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 133,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 134,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 135,
+      "theme_name": null,
+      "num_samples": 8,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 136,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 137,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 138,
+      "theme_name": null,
+      "num_samples": 8,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 139,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 140,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 141,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 142,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 143,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 144,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    },
+    {
+      "cluster_id": 145,
+      "theme_name": null,
+      "num_samples": 10,
+      "consolidated": false
+    }
+  ],
+  "consolidation_log": "Themes were consolidated if they shared more than 70% of their representative chunks."
+}

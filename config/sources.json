@@ -1,0 +1,197 @@
+{
+  "version": "2.0",
+  "description": "Data source configuration for the Zepto AI Review Engine. Each source has a priority tier, target apps or communities, and configuration parameters. Sources are scraped in tier order — Tier 1 sources must succeed before Tier 2 is attempted.",
+  "priority_tiers": {
+    "tier_1": "Required. Pipeline does not proceed without at least one Tier 1 source.",
+    "tier_2": "Recommended. Adds corpus diversity but not blocking.",
+    "tier_3": "Optional. High cost or low ROI — only enable if Tier 1+2 corpus is thin."
+  },
+  "ingestion": {
+    "start_date": "2024-01-01",
+    "end_date": "current",
+    "max_documents_per_source": {
+      "play_store": 10000,
+      "app_store": 10000,
+      "quora": 5000,
+      "blog": 5000,
+      "product_review": 5000,
+      "forum": 5000,
+      "twitter": 1000,
+      "csv": -1
+    },
+    "lookback_months": 24,
+    "notes": "start_date and end_date define the collection window. 'current' means today. max_documents_per_source of -1 means unlimited. lookback_months is a fallback if end_date is 'current'."
+  },
+  "sources": [
+    {
+      "id": "play_store",
+      "name": "Google Play Store",
+      "tier": 1,
+      "connector": "src.ingestion.play_store_connector",
+      "enabled": true,
+      "apps": [
+        { "name": "zepto", "app_id": "com.zeptoconsumerapp", "label": "zepto" },
+        { "name": "blinkit", "app_id": "com.grofers.customerapp", "label": "blinkit" },
+        { "name": "swiggy_instamart", "app_id": "in.swiggy.android", "label": "swiggy_instamart" },
+        { "name": "bigbasket", "app_id": "com.bigbasket.bbasket", "label": "bigbasket" }
+      ],
+      "config": {
+        "country": "in",
+        "lang": "en",
+        "start_date": "2024-01-01",
+        "end_date": "current",
+        "max_documents": 10000,
+        "ratings": [1, 2, 3, 4, 5]
+      },
+      "notes": "No API key required. Uses google-play-scraper library. Rate limiting is implicit — add 1–2 second delay between requests. Date filtering is applied post-scrape since the library does not support server-side date range queries."
+    },
+    {
+      "id": "app_store",
+      "name": "Apple App Store",
+      "tier": 2,
+      "connector": "src.ingestion.app_store_connector",
+      "enabled": true,
+      "apps": [
+        { "name": "zepto", "app_id": "1453856030", "label": "zepto" },
+        { "name": "blinkit", "app_id": "1443909946", "label": "blinkit" },
+        { "name": "swiggy_instamart", "app_id": "989540920", "label": "swiggy_instamart" }
+      ],
+      "config": {
+        "country": "in",
+        "start_date": "2024-01-01",
+        "end_date": "current",
+        "max_documents": 10000
+      },
+      "notes": "Uses app-store-scraper library. Indian iOS user base is smaller than Android. Expect lower volume than Play Store. Date filtering is applied post-scrape."
+    },
+    {
+      "id": "quora",
+      "name": "Quora Discussions",
+      "tier": 2,
+      "connector": "src.ingestion.quora_connector",
+      "enabled": true,
+      "search_queries": [
+        "Zepto app review",
+        "Zepto grocery delivery",
+        "Zepto vs Blinkit",
+        "Zepto vs Swiggy Instamart",
+        "Zepto category exploration",
+        "Zepto shopping experience"
+      ],
+      "config": {
+        "start_date": "2024-01-01",
+        "end_date": "current",
+        "max_documents": 5000,
+        "max_pages_per_query": 10
+      },
+      "notes": "Publicly accessible discussions. HTML scraping via BeautifulSoup. Quora may rate-limit or block automated requests — use delays between requests. Date filtering is applied post-scrape."
+    },
+    {
+      "id": "blog",
+      "name": "Public Blogs",
+      "tier": 3,
+      "connector": "src.ingestion.blog_connector",
+      "enabled": false,
+      "search_queries": [
+        "Zepto app review blog",
+        "Zepto grocery delivery experience",
+        "Zepto vs competitors blog"
+      ],
+      "config": {
+        "start_date": "2024-01-01",
+        "end_date": "current",
+        "max_documents": 5000,
+        "max_pages_per_query": 5
+      },
+      "notes": "Optional Tier 3 source. Blog content is long-form and may contain qualitative insights. HTML structure varies widely across blogs."
+    },
+    {
+      "id": "product_review",
+      "name": "Product Review Websites",
+      "tier": 3,
+      "connector": "src.ingestion.product_review_connector",
+      "enabled": false,
+      "targets": [
+        { "name": "mouthshut", "base_url": "https://www.mouthshut.com", "search_path": "/zepto-reviews" },
+        { "name": "trustpilot", "base_url": "https://www.trustpilot.com", "search_path": "/search?q=zepto" }
+      ],
+      "config": {
+        "start_date": "2024-01-01",
+        "end_date": "current",
+        "max_documents": 5000,
+        "max_pages_per_target": 5
+      },
+      "notes": "Optional Tier 3 source. Product review sites may have structured review data with ratings and dates."
+    },
+    {
+      "id": "forum",
+      "name": "Community Forums",
+      "tier": 2,
+      "connector": "src.ingestion.forum_connector",
+      "enabled": true,
+      "targets": [
+        { "name": "mouthshut", "base_url": "https://www.mouthshut.com", "search_path": "/search?q=zepto+delivery" },
+        { "name": "localcircles", "base_url": "https://www.localcircles.com", "search_path": "/search?q=zepto+grocery" }
+      ],
+      "config": {
+        "start_date": "2024-01-01",
+        "end_date": "current",
+        "max_documents": 5000,
+        "max_pages_per_target": 5,
+        "delay_seconds": 2
+      },
+      "notes": "Enabled for the initial corpus build. HTML structure changes frequently, so verify selectors before running."
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter / X",
+      "tier": 3,
+      "connector": "src.ingestion.twitter_connector",
+      "enabled": false,
+      "search_queries": [
+        "@zepto_app",
+        "#zepto",
+        "zepto app review",
+        "zepto grocery delivery"
+      ],
+      "config": {
+        "start_date": "2024-01-01",
+        "end_date": "current",
+        "max_documents": 1000,
+        "max_results_per_query": 100
+      },
+      "notes": "Disabled by default. Requires TWITTER_BEARER_TOKEN and TWITTER_ENABLED=true in .env. Tier 3 — short-form content has low signal density for this use case."
+    },
+    {
+      "id": "csv",
+      "name": "CSV Uploads",
+      "tier": 1,
+      "connector": "src.ingestion.csv_connector",
+      "enabled": true,
+      "config": {
+        "start_date": "2024-01-01",
+        "end_date": "current",
+        "max_documents": -1,
+        "upload_dir": "data/csv_uploads",
+        "encoding": "utf-8",
+        "delimiter": ","
+      },
+      "notes": "For survey responses, interview transcripts, and manually collected community discussions. Place CSV files in data/csv_uploads/ before running ingestion. Unlimited documents by default."
+    }
+  ],
+  "data_schema": {
+    "description": "Canonical schema produced by every connector. All fields are required unless marked nullable.",
+    "fields": {
+      "id": { "type": "string", "format": "UUID v4", "note": "Generated at ingestion time" },
+      "source": { "type": "string", "enum": ["play_store", "app_store", "quora", "blog", "product_review", "forum", "twitter", "csv", "internal"] },
+      "app": { "type": "string", "enum": ["zepto", "blinkit", "swiggy_instamart", "bigbasket", "other"] },
+      "text": { "type": "string", "note": "Raw review or post body. Must be non-empty after UTF-8 decoding." },
+      "rating": { "type": "integer", "nullable": true, "range": "1–5", "note": "Null for forum posts, blog posts, and Twitter tweets" },
+      "created_at": { "type": "string", "nullable": true, "format": "ISO 8601 (YYYY-MM-DD)", "note": "Original publication date from the source" },
+      "url": { "type": "string", "nullable": true, "format": "URL", "note": "Source URL linking to the original review or post" },
+      "language": { "type": "string", "note": "BCP 47 language code detected at ingestion (e.g., 'en', 'hi')" },
+      "platform": { "type": "string", "enum": ["google_play", "apple_app_store", "quora", "blog", "product_review_site", "community_forum", "twitter", "csv_upload"], "note": "The platform where the feedback was collected" },
+      "metadata": { "type": "object", "note": "Source-specific fields: app_id, thread_title, tweet_id, etc." }
+    }
+  }
+}
