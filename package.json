@@ -1,0 +1,7 @@
+{
+  "name": "zepto-reviews-engine",
+  "private": true,
+  "workspaces": [
+    "frontend"
+  ]
+}
